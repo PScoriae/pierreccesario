@@ -10,7 +10,7 @@ pipeline {
         }
         stage("Push Files to S3 Bucket") {
             steps {
-                sh 'aws s3 cp -R public/* s3://pierreccesario.com'
+                sh 'aws s3 cp public/* s3://pierreccesario.com'
             }
         }
     }
