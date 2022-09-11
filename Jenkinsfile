@@ -5,10 +5,6 @@ pipeline {
     stages {
         stage("Hugo Build") {
             steps {
-                dir("pierreccesario") {
-                    sh "echo pwd"
-                    sh "pwd"
-                }
                 sh 'hugo'
             }
         }
