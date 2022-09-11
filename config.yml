@@ -33,6 +33,8 @@ params:
     url: "https://stackoverflow.com/users/17645610/pscoriae"
   - name: "Email"
     url: "mailto:contact@pierreccesario.com"
+  - name: "Discord"
+    url: "https://discordapp.com/users/158403963501281280"
   - name: "Spotify"
     url: "https://open.spotify.com/user/pietries?si=810fe97c34fa489b"
   - name: "PayPal"
