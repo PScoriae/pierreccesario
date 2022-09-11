@@ -5,12 +5,12 @@ pipeline {
     stages {
         stage("Hugo Build") {
             steps {
-                sh 'hugo'
+                sh 'sudo /usr/local/bin/hugo'
             }
         }
         stage("Push Files to S3 Bucket") {
             steps {
-                sh 'echo something'
+                sh 'aws s3 cp -R public/* s3://pierreccesario.com'
             }
         }
     }
