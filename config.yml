@@ -34,6 +34,8 @@ params:
     url: "mailto:contact@pierreccesario.com"
   - name: "Spotify"
     url: "https://open.spotify.com/user/pietries?si=810fe97c34fa489b"
+  - name: "PayPal"
+    url: "https://paypal.me/pscoriae"
 
 outputs:
     home:
