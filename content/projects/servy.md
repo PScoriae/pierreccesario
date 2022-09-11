@@ -27,5 +27,5 @@ I needed the server to be economical as possible but with as much computing powe
 
 
 ### Accomplishments
-- Administrating Red Hat Enterprise Linux server for personal projects (RHEL, Linux Server Administration)
-- Deployed Windows 10 guests for remote access development (Virtual Machines)
+- Administrating Red Hat Enterprise Linux server for personal projects **(RHEL, Linux Server Administration)**
+- Deployed Windows 10 guests for remote access development **(Virtual Machines)**
