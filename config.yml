@@ -1,0 +1,42 @@
+baseURL: https://pierreccesario.com
+languageCode: en-us
+title: Pierre Corazo Cesario
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags
+params:
+  profileMode:
+    enabled: true
+    title: "Pierre Corazo Cesario"
+    subtitle: "Backend Software and DevOps Engineer"
+    # imageUrl: "<image link>" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    # imageWidth: 120 # custom size
+    # imageHeight: 120 # custom size
+    buttons:
+    - name: Experience
+      url: "/experience"
+    - name: Projects
+      url: "/projects"
+
+  socialIcons:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/pierreccesario/"
+  - name: "GitHub"
+    url: "https://github.com/PScoriae"
+  - name: "StackOverflow"
+    url: "https://stackoverflow.com/users/17645610/pscoriae"
+  - name: "Email"
+    url: "mailto:contact@pierreccesario.com"
+  - name: "Spotify"
+    url: "https://open.spotify.com/user/pietries?si=810fe97c34fa489b"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
