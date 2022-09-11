@@ -19,7 +19,7 @@ Additionally, it acts as a Type 1 Hypervisor with the use of Linux KVM. As such,
 I needed the server to be economical as possible but with as much computing power as possible to support all the testing and sandboxing I have planned for it. I decided to go with decommissioned server parts as they offered the best performance per dollar.
 
 - CPU: E5 2670v2
-- Motherboard: JGINYUE X79 LGA 2011
+- Motherboard: JINGYUE X79 LGA 2011
 - RAM: 32GB ECC DDR3
 - HDD: 1TB WD Blue
 - SSD: Silicon Power P34A60 256GB 
