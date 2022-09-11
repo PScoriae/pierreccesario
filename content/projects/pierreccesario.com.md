@@ -26,7 +26,7 @@ To get into the technical aspect of this website, it leverages the power of [Hug
 - Set up and configure Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS/SSL encryption for secure connections **(Cloudflare, AWS S3, Web Hosting)**
 - Composed and formatted precise and informative documentation to aid understanding and deployment process of the project **(Documentation, Markdown)**
 
-Read the official full-fat documentation in the official [GitHub repository](https://github.com/PScoriae/imyour_joy).
+Read the official full-fat documentation in the official [GitHub repository](https://github.com/PScoriae/pierreccesario).
 
 ### Built With
 
