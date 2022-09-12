@@ -9,7 +9,7 @@ menu:
       name: Tags
       url: /tags
 params:
-  googleAnalyticsID: "G-8XRXNCDV3N"
+  # googleAnalyticsID: "G-8XRXNCDV3N"
   profileMode:
     enabled: true
     title: "Pierre Corazo Cesario"
