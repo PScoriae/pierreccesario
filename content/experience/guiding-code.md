@@ -14,6 +14,8 @@ tags:
 
 Our main goal with each guide is to address and present the topic at hand with optimal readability and structure, ensuring that each post is easy to digest and understand for whichever level of programming proficiency you have. Thus, killing the need to scramble through search results and numerous forum sites to land on the right solutions! Instead, our guides will be presented in the most readable and actionable manner. Plus, every one of our posts come with fitting images and screenshots, guiding you every step of the way!
 
+[Click here](https://guidingcode.com/author/pierre/) to see all the articles I've written for GuidingCode!
+
 ## Responsibilities
 - Conduct research on a wide range of programming-related issues that developers of any level face.
 - Produce detailed written guides with step-by-step instructions that are easily digestible by any proficiency.
