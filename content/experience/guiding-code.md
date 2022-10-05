@@ -3,7 +3,7 @@ title: "GuidingCode"
 description: How-to Website
 summary: Freelance Writer for Programming-related Articles
 cover:
-    image: img/guidingcode-logo.png
+    image: img/gc-gradient-logo.svg
     alt: guidingcode-logo
 tags:
 - writing
