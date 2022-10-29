@@ -74,7 +74,7 @@ With the infrastructure set up, a **manual** deployment looks a little something
 2. Use the AWS S3 web console to upload all files in the `public/` folder to the root domain S3 bucket.
 
 For me, this becomes a rather tedious and repetitive process, especially when you want to make multiple successive changes quite frequently.
-Unsuprisingly, it also becomes the perfect task for automation purposes.
+Unsurprisingly, it also becomes the perfect task for automation purposes.
 
 This section will detail how to set up the Jenkins CI/CD pipeline using the aforementioned services.
 
