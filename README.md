@@ -1,10 +1,11 @@
 <div align='center'>
+<a href="https://jenkins.pierreccesario.com/job/pierreccesario.com/">
+    <img src="https://jenkins.pierreccesario.com/buildStatus/icon?job=pierreccesario.com&style=flat-square">
+</a>
 <p>
   <a href="https://linkedin.com/in/pierreccesario">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
   </a>
-</p>
-<p>
   <a href="https://github.com/PScoriae/pierreccesario/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge">
   </a>
