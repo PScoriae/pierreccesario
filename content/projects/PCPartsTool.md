@@ -45,7 +45,7 @@ With that being said, I did put in effort into creating the webapp as best I fin
 
 ## Cloud Architecture
 
-![cloud-architecture](https://github.com/PScoriae/PCPartsTool/blob/main/docs/cloud-arch.png?raw=true)
+![cloud-architecture](https://github.com/PScoriae/PCPartsTool/blob/main/docs/cloud-arch.webp?raw=true)
 
 # Accomplishments
 
