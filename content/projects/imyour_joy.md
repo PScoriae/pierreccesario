@@ -3,8 +3,8 @@ title: "imyour_joy"
 description: An open source self-hostable Dockerized Discord.js bot with CI/CD written in TypeScript (previously Python).
 summary: An open source self-hostable Dockerized Discord.js bot with CI/CD written in TypeScript.
 cover:
-  image: "https://github.com/PScoriae/imyour_joy/blob/main/images/joyfunny.png?raw=true"
-  alt: Joy Laughing
+  image: img/imyourjoy-cover.webp
+  alt: imyour_joy cover
 tags:
   - TypeScript
   - Discord.js
