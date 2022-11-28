@@ -3,8 +3,8 @@ title: "pierreccesario.com"
 description: The very portfolio website that you're currently on!
 summary: The very portfolio website that you're currently on!
 cover:
-  image: android-chrome-512x512.png
-  alt: Joy Laughing
+  image: img/pierreccesario-cover.webp
+  alt: pierreccesario cover
 tags:
   - Hugo
   - Jenkins CI/CD
