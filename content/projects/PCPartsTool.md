@@ -1,7 +1,7 @@
 ---
 title: "PCPartsTool"
-description: A SvelteKit Webapp | Deployed on AWS Cloudflare with CI/CD, IaC and CaC
-summary: A SvelteKit Webapp | Deployed on AWS Cloudflare with CI/CD, IaC and CaC
+description: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
+summary: A SvelteKit Web app | Deployed on AWS,  Cloudflare with Jenkins, Terraform and Ansible
 tags:
   - SvelteKit
   - TypeScript
