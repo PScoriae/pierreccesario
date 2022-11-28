@@ -2,14 +2,19 @@
 title: "PCPartsTool"
 description: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
 summary: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
+cover:
+  image: img/pcpartstool-cover.webp
+  alt: PCPartsTool Logo
 tags:
   - SvelteKit
   - TypeScript
+  - JavaScript
   - Tailwind CSS
   - MongoDB
   - Playwright
   - AWS
   - AWS EC2
+  - AWS S3
   - Nginx
   - Jenkins CI/CD
   - Docker
@@ -18,9 +23,13 @@ tags:
   - Ansible
   - Prometheus
   - Grafana
+  - Red Hat Enterprise Linux
   - Website Hosting and Deployment
+  - System Design
+  - Software Architecture
   - Documentation
   - GitHub
+  - DevOps
 weight: 5
 ---
 
