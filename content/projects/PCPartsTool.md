@@ -63,3 +63,5 @@ With that being said, I did put in effort into creating the webapp as best I fin
 - Engineered Jenkins pipeline with GitHub Webhooks integration to automatically run Docker builds, E2E tests and deployment onto servers **(Jenkins, Ansible, Playwright, Docker Compose, AWS EC2, RHEL)**
 - Designed and implemented a SvelteKit MongoDB CRUD WebApp with Tailwind CSS **(SvelteKit, MongoDB, TailwindCSS)**
 - Composed and formatted precise and informative documentation to aid understanding and deployment process of the project **(Documentation, Markdown)**
+
+Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/PCPartsTool).

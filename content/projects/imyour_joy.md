@@ -30,7 +30,7 @@ Complying with Discord's announcement regarding _[Message Content Access Depreca
 - Developed a pipeline for automated image web scraping and integration with Discord servers **(Cheerio, BeautifulSoup4)**
 - Composed and formatted precise and informative documentation to aid understanding and deployment process of the project **(Documentation, Markdown)**
 
-Read the official full-fat documentation in the official [GitHub repository](https://github.com/PScoriae/imyour_joy).
+Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/imyour_joy).
 
 ## Built With
 
