@@ -1,7 +1,7 @@
 ---
 title: "PCPartsTool"
-description: A SvelteKit Webapp that lets users save and share parts lists for custom PCs | Deployed on AWS with CI/CD
-summary: A SvelteKit Webapp that lets users save and share parts lists for custom PCs | Deployed on AWS with CI/CD
+description: A SvelteKit Webapp | Deployed on AWS Cloudflare with CI/CD, IaC and CaC
+summary: A SvelteKit Webapp | Deployed on AWS Cloudflare with CI/CD, IaC and CaC
 tags:
   - SvelteKit
   - TypeScript
@@ -49,7 +49,8 @@ With that being said, I did put in effort into creating the webapp as best I fin
 
 # Accomplishments
 
+- Architected and designed full stack cloud web app **(System Design/Software Architecture, AWS)**
 - Leveraged Terraform, Ansible, Prometheus and Grafana to programmatically set up and tear down one-click cloud infrastructure deployments with full observability and monitoring **(Terraform, Ansible, Prometheus, Grafana, Docker)**
-- Engineered Jenkins pipeline with GitHub Webhooks integration to automatically run SonarQube quality gates, Playwright E2E testing, Docker builds and deployment onto servers **(Jenkins, SonarQube, Playwright, Docker Compose, AWS EC2)**
+- Engineered Jenkins pipeline with GitHub Webhooks integration to automatically run Docker builds and deployment onto servers **(Jenkins, Ansible, Docker Compose, AWS EC2)**
 - Designed and implemented a SvelteKit MongoDB CRUD WebApp with Tailwind CSS **(SvelteKit, MongoDB, TailwindCSS)**
 - Composed and formatted precise and informative documentation to aid understanding and deployment process of the project **(Documentation, Markdown)**
