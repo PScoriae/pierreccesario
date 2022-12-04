@@ -43,6 +43,6 @@ Backend Software and DevOps Engineer
 
 - Developed and enhanced TypeGraphQL resolver middle-ware to sync warehouse stock and orders with external APIs **(TypeGraphQL, PostgreSQL)**
 - Designed and implemented Typescript REST API endpoints and led a team of 2 interns **(TypeScript, TypeORM, PostgresQL, REST, Node.js, Koa.js)**
-- Managed, developed and deployed Apache Airflow Python DAGs to increase repeatability, reliability and scalability of API calls **(Python, Apache Airflow, AWS Elastic Kubernetes Service, AWS Managed Workflows for Apache Airflow)**
-- Spearheaded R&D and implementation of end-to-end testing unit testing to solidify test results and rapidly increase deployment speed of features and bug fixes in bi-weekly sprints **(LitElement, Cypress, Jest)**
-- Increased QA testing efficiency and repeatability through Bash scripting **(Bash, Yarn)**
+- Developed and deployed Apache Airflow Python DAGs to increase repeatability, reliability and scalability of API calls **(Python, Apache Airflow, AWS Elastic Kubernetes Service, AWS Managed Workflows for Apache Airflow)**
+- Spearheaded R&D and implementation of end-to-end testing unit testing to solidify test results and rapidly increase deployment speed of features and bug fixes in bi-weekly sprints as part of our DevOps practices **(Cypress, Jest)**
+- Increased QA testing efficiency and repeatability through Bash scripting automation **(Bash, Yarn)**

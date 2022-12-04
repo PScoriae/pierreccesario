@@ -59,9 +59,9 @@ With that being said, I did put in effort into creating the webapp as best I fin
 # Accomplishments
 
 - Architected and designed full stack cloud web app **(System Design/Software Architecture, AWS)**
-- Leveraged Terraform, Ansible, Prometheus and Grafana to programmatically set up and tear down one-click cloud infrastructure deployments with full observability and monitoring **(Terraform, Ansible, Prometheus, Grafana, Docker)**
-- Engineered Jenkins pipeline with GitHub Webhooks integration to automatically run Docker builds, E2E tests and deployment onto servers **(Jenkins, Ansible, Playwright, Docker Compose, AWS EC2, RHEL)**
+- Leveraged IaC and CaC to programmatically set up and tear down one-click cloud infrastructure deployments with full observability and monitoring across multiple platforms **(Terraform, Ansible, Prometheus, Grafana, Docker)**
+- Engineered CI/CD pipelines with GitHub Webhooks integration to automatically run Docker builds, E2E tests and deployment onto servers **(Jenkins, Ansible, Playwright, Docker Compose, AWS EC2, RHEL)**
 - Designed and implemented a SvelteKit MongoDB CRUD WebApp with Tailwind CSS **(SvelteKit, MongoDB, TailwindCSS)**
-- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project **(Documentation, Markdown)**
+- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project, providing explanations of our DevOps practices **(Documentation, Markdown)**
 
 Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/PCPartsTool).
