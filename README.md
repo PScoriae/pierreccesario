@@ -109,7 +109,7 @@ The endpoint that the webhook will have to push a POST request to will be based 
 
 So, the endpoint in the GitHub Webhooks section of your repository should look a little something like this:
 
-`ec2-12-34-56-789.ap-southeast-1.compute.amazonaws.com:8080/github-webhook/`
+`http://ec2-12-34-56-789.ap-southeast-1.compute.amazonaws.com:8080/github-webhook/`
 
 Be sure to append the trailing slash at the end or it won't work.
 
