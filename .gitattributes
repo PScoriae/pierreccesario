@@ -1,0 +1,5 @@
+*.md linguist-detectable
+*.yml linguist-detectable
+
+themes/** linguist-generated
+README.md linguist-documentation
