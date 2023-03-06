@@ -2,4 +2,5 @@
 *.yml linguist-detectable
 
 themes/** linguist-generated
+themes/** -linguist-detectable
 README.md linguist-documentation
