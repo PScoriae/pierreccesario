@@ -1,7 +1,6 @@
 *.md linguist-detectable
 *.yml linguist-detectable
 
-themes/** linguist-vendored
-# themes/**/*.html linguist-detectable
-# themes/**/*.css linguist-detectable
+*.html linguist-vendored
+*.css linguist-vendored
 README.md linguist-documentation
