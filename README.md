@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
   </a>
   <a href="https://github.com/PScoriae/pierreccesario/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge">
+    <img src="https://img.shields.io/badge/license-WTFPL-brightgreen?style=for-the-badge">
   </a>
 </p>
 <p>
