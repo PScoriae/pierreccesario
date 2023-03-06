@@ -2,5 +2,5 @@
 *.yml linguist-detectable
 
 themes/** linguist-generated
-themes/** -linguist-detectable
+themes/PaperMod/** -linguist-detectable
 README.md linguist-documentation
