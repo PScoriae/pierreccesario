@@ -1,0 +1,41 @@
+baseURL: "/"
+languageCode: en-us
+title: Pie's Music Vault
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+pluralizeListTitles: false # prevent content folders from being pluralised
+enableGitInfo: true
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags
+params:
+  env: "production"
+  googleAnalyticsID: "G-8XRXNCDV3N"
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  author: ["Pierre Corazo Cesario"]
+
+  homeInfoParams:
+    Title: The Music Vault
+    Content: My thoughts on songs that intrigue me.
+
+  socialIcons:
+    - name: "AppleMusic"
+      url: "https://music.apple.com/profile/pierreccesario"
+    - name: "Spotify"
+      url: "https://open.spotify.com/user/pietries?si=810fe97c34fa489b"
+    - name: "Discord"
+      url: "https://discordapp.com/users/158403963501281280"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
