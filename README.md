@@ -9,7 +9,7 @@
   </a>
 </p>
 <p>
-  <img src="./static/android-chrome-512x512.png" width=300>
+  <img src="main/static/android-chrome-512x512.png" width=300>
 </p>
 
 ## pierreccesario.com
