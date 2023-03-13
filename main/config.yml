@@ -10,6 +10,9 @@ menu:
     - identifier: tags
       name: Tags
       url: /tags
+    - identifier: music-reviews
+      name: Music Reviews
+      url: https://music.pierreccesario.com
 params:
   env: "production"
   googleAnalyticsID: "G-8XRXNCDV3N"
