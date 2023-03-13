@@ -13,6 +13,9 @@ menu:
     - identifier: Archives
       name: Archives
       url: /archives
+    - identifier: tags
+      name: Tags
+      url: /tags
 
 params:
   env: "production"
