@@ -10,15 +10,26 @@ enableGitInfo: true
 
 menu:
   main:
-    - identifier: Archives
-      name: Archives
-      url: /archives
-    - identifier: tags
-      name: Tags
-      url: /tags
+    - identifier: about
+      name: About
+      url: /about
+      weight: 1
     - identifier: rating-system
       name: Rating System
       url: /rating-system
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 80
+    - identifier: Archives
+      name: Archives
+      url: /archives
+      weight: 100
 
 params:
   env: "production"
@@ -27,6 +38,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   author: ["Pierre Corazo Cesario"]
+  ShowPostNavLinks: true
   mainSections:
     - twice
     - poppy
@@ -42,6 +54,8 @@ params:
       url: "https://open.spotify.com/user/pietries?si=810fe97c34fa489b"
     - name: "Discord"
       url: "https://discordapp.com/users/158403963501281280"
+    - name: "kofi"
+      url: "https://ko-fi.com/pierreccesario"
 
 outputs:
   home:
