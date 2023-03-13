@@ -16,6 +16,9 @@ menu:
     - identifier: tags
       name: Tags
       url: /tags
+    - identifier: rating-system
+      name: Rating System
+      url: /rating-system
 
 params:
   env: "production"
