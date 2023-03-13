@@ -33,7 +33,7 @@ menu:
 
 params:
   env: "production"
-  googleAnalyticsID: "G-8XRXNCDV3N"
+  googleAnalyticsID: "G-PDTHCGQGHJ"
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
