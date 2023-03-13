@@ -4,7 +4,7 @@ description: The bubblegum pop meme completes her metamorphosis in the third stu
 summary: The bubblegum pop meme completes her metamorphosis in the third studio album.
 date: 2023-03-13T20:35:23+08:00
 cover:
-  image: img/Idisagreealbum.webp
+  image: img/covers/i-disagree.webp
   alt: Poppy – I Disagree album cover
 tags:
   - metal
