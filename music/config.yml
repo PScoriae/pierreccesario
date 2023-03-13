@@ -10,9 +10,10 @@ enableGitInfo: true
 
 menu:
   main:
-    - identifier: tags
-      name: Tags
-      url: /tags
+    - identifier: Archives
+      name: Archives
+      url: /archives
+
 params:
   env: "production"
   googleAnalyticsID: "G-8XRXNCDV3N"
@@ -20,6 +21,9 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   author: ["Pierre Corazo Cesario"]
+  mainSections:
+    - twice
+    - poppy
 
   homeInfoParams:
     Title: The Music Vault
