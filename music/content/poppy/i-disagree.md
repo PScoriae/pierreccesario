@@ -30,4 +30,4 @@ _Nothing I Need_ and _Sick of the Sun_ take a more subdued approach by focusing 
 
 Overall, there are so many facets to the LP's 10 tracks that keeps things fresh and excellently showcases Poppy's versatility. With high quality production and mixing from Chris Greatti and Zakk Cervini, it's a treat to rock out to. Thanks to its diverse selection of genres, I would recommend it to any metal, industrial or pop fan for that matter.
 
-**8.5/10**
+**9.0/10**
