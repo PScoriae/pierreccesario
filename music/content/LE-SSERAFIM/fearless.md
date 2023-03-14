@@ -14,6 +14,8 @@ tags:
 
 {{< applemusic "https://embed.music.apple.com/my/album/fearless-ep/1621089349" >}}
 
+LE SSERAFIM debuted in May 2021 as a sextet but became a quintet shortly after due to complications surrounding Kim Garam's history. Hence, this is the only album where she is featured. Still, we have strong performers in the group like IZ\*ONE's Kim Chaewon and Miyawaki Sakura to propel the group to stardom, not to mention the entertainment company behemoth HYBE backing them up.
+
 The EP opens with _The World Is My Oyster_, a mainly instrumental intro track that exudes confidence and gives the impression of the music played at a high-end clothing store. Production-wise, it clearly meets my expectations coming from a label as big as HYBE given that it excellently employs percussion and synths with various effects. That being said, the members do say things that attempt to add to the atmosphere, but ultimately end up detracting from the experience somewhat – it's a bit cringe. I get it, they're _Fearless_ but maybe they could've done it another way.
 {{< youtube Qr6HmcxI2s0 >}}
 
@@ -28,6 +30,6 @@ I'm a synth fan, so _The Great Mermaid_'s extravagant use of synths paired with 
 
 Closing track _Sour Grapes_ portrays a more vulnerable and delicate side in this R&B arrangement. Its extensive use of delicate harp plucking to drive the beautiful melody is amazing and is something not seen quite often, at least in my experience. Then you have Kazuha's or Yunjin's serious, almost threatening _"Yeah you'll hurt me"_ to take you by surprise and spice things up, only to chill back down in the sublime chorus. It's great and keeps the experience varied.
 
-Like I said, these are some pretty good B-sides, but the title track is unfortunately a serious let down. Nevertheless, I would still recommend it and is generally an above-average debut EP among the 4th gen GGs.
+Like I said, these are some pretty good B-sides, but the title track is unfortunately a serious let down. Nevertheless, I would still recommend it and is generally an above-average debut EP among the 4th gen GGs, if only for the B-sides.
 
 **7.0/10**
