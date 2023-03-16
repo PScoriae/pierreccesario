@@ -1,5 +1,5 @@
 ---
-title: "LE SSERAFIM - Antifragile EP"
+title: "LE SSERAFIM – Antifragile EP"
 description: Refinement.
 summary: Refinement.
 date: 2023-03-13T23:20:27+08:00

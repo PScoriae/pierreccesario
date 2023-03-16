@@ -1,5 +1,5 @@
 ---
-title: "LE SSERAFIM - Fearless"
+title: "LE SSERAFIM – Fearless"
 description: Source Music plays it safe for the GG's debut EP.
 summary: Source Music plays it safe for the GG's debut EP.
 date: 2023-03-14T00:59:11+08:00
