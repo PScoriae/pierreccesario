@@ -68,9 +68,11 @@ Refer to the included links in the [Acknowledgements](#acknowledgements) section
 
 With the infrastructure set up, a **manual** deployment looks a little something like this:
 
-1. Run the `hugo` command on your development machine to create the website files in the `public/` folder.
+1. First, `cd` into the directory for the site you wish to build e.g. `music`.
 
-2. Use the AWS S3 web console to upload all files in the `public/` folder to the root domain S3 bucket.
+2. Run the `hugo` command on your development machine to create the website files in the `public/` folder.
+
+3. Use the AWS S3 web console to upload all files in the `public/` folder to the root domain S3 bucket.
 
 For me, this becomes a rather tedious and repetitive process, especially when you want to make multiple successive changes quite frequently.
 Unsurprisingly, it also becomes the perfect task for automation purposes.
