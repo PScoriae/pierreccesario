@@ -33,7 +33,7 @@ menu:
 
 params:
   env: "production"
-  googleAnalyticsID: "G-PDTHCGQGHJ"
+  googleAnalytics: "G-PDTHCGQGHJ"
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
@@ -42,6 +42,7 @@ params:
   mainSections:
     - LE-SSERAFIM
     - poppy
+    - TWICE
 
   homeInfoParams:
     Title: The Music Vault
