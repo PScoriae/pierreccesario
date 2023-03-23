@@ -1,6 +1,7 @@
 baseURL: "/"
 languageCode: en-us
 title: Pierre Corazo Cesario
+themesDir: "../themes"
 theme: "PaperMod"
 
 menu:

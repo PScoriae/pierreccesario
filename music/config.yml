@@ -1,6 +1,7 @@
 baseURL: "/"
 languageCode: en-us
 title: Pie's Music Vault
+themesDir: "../themes"
 theme: "PaperMod"
 
 pluralizeListTitles: false # prevent content folders from being pluralised
