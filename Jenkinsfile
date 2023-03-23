@@ -21,18 +21,16 @@ pipeline {
         }
 
         stage("Push Main Files to S3 Bucket") {
-            when { changeset "main/**/*"}
             steps {
                 dir('main') {
-                    sh 'aws s3 cp public s3://pierreccesario.com --recursive'
+                    sh 'hugo deploy'
                 }
             }
         }
         stage("Push Music Files to S3 Bucket") {
-            when { changeset "music/**/*"}
             steps {
                 dir('music') {
-                    sh 'aws s3 cp public s3://music.pierreccesario.com --recursive'
+                    sh 'hugo deploy'
                 }
             }
         }
