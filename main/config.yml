@@ -1,9 +1,7 @@
 baseURL: "/"
 languageCode: en-us
 title: Pierre Corazo Cesario
-module:
-  imports:
-    - path: github.com/adityatelange/hugo-PaperMod
+theme: "PaperMod"
 
 menu:
   main:
@@ -50,3 +48,8 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
+
+deployment:
+  targets:
+    name: S3 pierreccesario.com
+    URL: "s3://pierreccesario.com?region=ap-southeast-1"
