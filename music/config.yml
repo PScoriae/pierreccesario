@@ -65,4 +65,4 @@ outputs:
 deployment:
   targets:
     name: S3 pierreccesario.com
-    URL: "s3://pierreccesario.com?region=ap-southeast-1"
+    URL: "s3://music.pierreccesario.com?region=ap-southeast-1"
