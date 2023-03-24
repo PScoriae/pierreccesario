@@ -3,7 +3,7 @@ title: "PCPartsTool"
 description: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
 summary: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
 cover:
-  image: img/pcpartstool-cover.webp
+  image: img/pcpartstool/cover.webp
   alt: PCPartsTool Logo
 tags:
   - SvelteKit
@@ -39,22 +39,78 @@ This project, largely based on [PCPartPicker](https://pcpartpicker.com), is a ra
 
 An important thing to note about this project is that the webapp is **not** the focus of this project. Instead, I am more interested in how the DevOps Engineering and Server Adminstration side of things tie in with this webapp. DevOps aspects like CI/CD pipelines, Monitoring and Observability and general Cloud Engineering are what I'm passionate about so this webapp merely serves as a guinea pig for such DevOps processes.
 
-With that being said, I did put in effort into creating the webapp as best I find programming in general quite gratifying. While frontend web development isn't my preference at all, it was a rather pleasant experience working with SvelteKit and was one of the primary reasons why it was chosen over other popular frameworks like React or Vue. If you'd like to see what you can do with the site, you can go ahead and check it out at [pcpartstool.pierreccesario.com](https://pcpartstool.pierreccesario.com)
+With that being said, I did put in effort into creating the webapp as best I find programming in general quite gratifying. While frontend web development isn't my preference at all, it was a rather pleasant experience working with SvelteKit and was one of the primary reasons why it was chosen over other popular frameworks like React or Vue.
+
+## Tech Stack
+
+<table>
+  <thead>
+    <tr>
+      <th width="500px">Infrastructure</th>
+      <th width="500px">DevOps</th>
+      <th width="500px">Backend</th>
+      <th width="500px">Frontend</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr width="600px">
+      <td> <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"> <img src= "https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00"> </td>
+    </tr>
+    <tr width="600px">
+      <td> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"></td>
+      <td> <img src="https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=Svelte&logoColor=white"></td>
+      <td> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"> </td>
+    </tr>
+    <tr width="600px">
+      <td> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"></td>
+      <td> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"> </td>
+    </tr>
+    <tr width="600px">
+      <td>
+        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
+        <img src="https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white ">
+      </td>
+      <td>
+        <img src="https://img.shields.io/badge/Prometheus-000000?style=for-the-badge&logo=prometheus&labelColor=000000">
+        <img src="https://img.shields.io/badge/Grafana-F2F4F9?style=for-the-badge&logo=grafana&logoColor=orange&labelColor=F2F4F9">
+      </td>
+      <td> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Daisy%20UI-522bbe?style=for-the-badge&logo=daisyui&logoColor=white"> </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Source Code
 
 **Note:** The PCPartsTool project consists of multiple repositories. Here are all the related repositories:
 
-| Repository                                                             | Built With                                                                                                                                                                                                                                                               | Description                                                         |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
-| [PCPartsTool](https://github.com/PScoriae/PCPartsTool)                 | [SvelteKit](https://kit.svelte.com), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com), [MongoDB](https://mongodb.com), [Jenkins](https://www.jenkins.io/), [Docker](https://www.docker.com/), [Playwright](https://playwright.dev) | The SvelteKit MongoDB WebApp                                        |
-| [PCPartsTool-Scraper](https://github.com/PScoriae/PCPartsTool-Scraper) | [JavaScript](https://www.javascript.com/), [Jenkins](https://www.jenkins.io/), [Docker](https://www.docker.com/)                                                                                                                                                         | Scraping Script to Gather E-commerce Item Data                      |
-| [terraform-infra](https://github.com/PScoriae/terraform-infra)         | [Terraform](https://terraform.com), [Cloudflare](https://cloudflare.com), [AWS](https://aws.amazon.com)                                                                                                                                                                  | Terraform IaC for PCPartsTool Cloud Infrastructure                  |
-| [ansible-ec2](https://github.com/PScoriae/ansible-ec2)                 | [Ansible](https://ansible.com), [Prometheus](https://prometheus.io), [Grafana](https://grafana.com), [Nginx](https://nginx.com), [AWS](https://aws.amazon.com)                                                                                                           | Ansible CaC for AWS EC2 Bootstraping, Observability and Maintenance |
+| Repository                                                             | Description                                                         |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [PCPartsTool](https://github.com/PScoriae/PCPartsTool)                 | The SvelteKit MongoDB WebApp                                        |
+| [PCPartsTool-Scraper](https://github.com/PScoriae/PCPartsTool-Scraper) | Scraping Script to Gather E-commerce Item Data                      |
+| [terraform-infra](https://github.com/PScoriae/terraform-infra)         | Terraform IaC for PCPartsTool Cloud Infrastructure                  |
+| [ansible-ec2](https://github.com/PScoriae/ansible-ec2)                 | Ansible CaC for AWS EC2 Bootstraping, Observability and Maintenance |
 
-## Cloud Architecture
+## System Design and Cloud Architecture
+
+Here's an overview of the implemented system design and cloud architecture for the project:
 
 ![cloud-architecture](https://github.com/PScoriae/PCPartsTool/blob/main/docs/cloud-arch.webp?raw=true)
+
+# Findings
+
+Seeing as this project also served as my degree's final year project, I had to make an accompanying report for my findings. I do not plan to publish said report, but in case you are someone who has seen my resume, you might be wondering how I got the claimed numbers for the reduced deployment times due to the use of Ansible, Terraform or Jenkins. Hence, here's the data for that:
+
+![terraform](/img/pcpartstool/terraform.webp)
+![ansible](/img/pcpartstool/ansible.webp)
+![jenkins](/img/pcpartstool/jenkins.webp)
+![playwright](/img/pcpartstool/playwright.webp)
 
 # Accomplishments
 
