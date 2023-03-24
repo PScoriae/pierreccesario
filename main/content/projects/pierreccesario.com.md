@@ -33,10 +33,34 @@ To get into the technical aspect of this website, it leverages the power of [Hug
 
 Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/pierreccesario).
 
-## Built With
+## Tech Stack
 
-- [Hugo](https://gohugo.io/)
-- [Jenkins](https://www.jenkins.io/)
-- [AWS EC2](https://aws.amazon.com/ec2/)
-- [AWS S3](https://aws.amazon.com/s3/)
-- [Cloudflare](https://www.cloudflare.com/)
+<table>
+  <thead>
+    <tr>
+      <th width="500px">Infrastructure</th>
+      <th width="500px">CI/CD</th>
+      <th width="500px">Site</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr width="600px">
+      <td>
+        <a href="https://aws.amazon.com"><img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"></a>
+        <a href="https://www.redhat.com/en"><img src="https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white"></a>
+      </td>
+      <td> <a href="https://www.jenkins.io/"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"></a> </td>
+      <td> <a href="https://gohugo.io/"><img src="https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white"></a> </td>
+    </tr>
+    <tr width="600px">
+      <td> <a href="https://www.cloudflare.com/"> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"></a></td>
+      <td> </td>
+      <td> <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"></td>
+    </tr>
+    <tr width="600px">
+      <td> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"> <img src="https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white"> </td>
+      <td> </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
