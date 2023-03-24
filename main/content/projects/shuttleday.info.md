@@ -1,4 +1,4 @@
 ---
-title: "Shuttleday.info"
+title: "shuttleday.info"
 draft: true
 ---
