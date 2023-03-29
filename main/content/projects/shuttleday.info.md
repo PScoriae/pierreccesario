@@ -17,7 +17,7 @@ With that being said, I did put in effort into creating the webapp as best I fin
   <thead>
     <tr>
       <th width="500px">Infrastructure</th>
-      <th width="500px">DevOps</th>
+      <th width="500px">CI/CD</th>
       <th width="500px">Backend</th>
       <th width="500px">Frontend</th>
     </tr>
@@ -27,45 +27,36 @@ With that being said, I did put in effort into creating the webapp as best I fin
       <td> <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"> <img src= "https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white"> </td>
       <td> <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"> </td>
       <td> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"> </td>
-      <td> <img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00"> </td>
+      <td> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> </td>
     </tr>
     <tr width="600px">
       <td> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"></td>
-      <td> <img src="https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white"> </td>
-      <td> <img src="https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=Svelte&logoColor=white"></td>
-      <td> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"></td>
+      <td> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> </td>
     </tr>
     <tr width="600px">
       <td> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> </td>
-      <td> <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"></td>
       <td> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"></td>
-      <td> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white"> </td>
     </tr>
     <tr width="600px">
-      <td>
-        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
-        <img src="https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white ">
-      </td>
-      <td>
-        <img src="https://img.shields.io/badge/Prometheus-000000?style=for-the-badge&logo=prometheus&labelColor=000000">
-        <img src="https://img.shields.io/badge/Grafana-F2F4F9?style=for-the-badge&logo=grafana&logoColor=orange&labelColor=F2F4F9">
-      </td>
-      <td> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"> </td>
-      <td> <img src="https://img.shields.io/badge/Daisy%20UI-522bbe?style=for-the-badge&logo=daisyui&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white "></td>
+      <td>  </td>
+      <td> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"> </td>
+      <td> <img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white""> </td>
+    </tr>
+    <tr width="600px">
+      <td> <img src="https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white "> </td>
+      <td> </td>
+      <td> <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"> </td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
 
 ## Source Code
-
-**Note:** The PCPartsTool project consists of multiple repositories. Here are all the related repositories:
-
-| Repository                                                             | Description                                                         |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [PCPartsTool](https://github.com/PScoriae/PCPartsTool)                 | The SvelteKit MongoDB WebApp                                        |
-| [PCPartsTool-Scraper](https://github.com/PScoriae/PCPartsTool-Scraper) | Scraping Script to Gather E-commerce Item Data                      |
-| [terraform-infra](https://github.com/PScoriae/terraform-infra)         | Terraform IaC for PCPartsTool Cloud Infrastructure                  |
-| [ansible-ec2](https://github.com/PScoriae/ansible-ec2)                 | Ansible CaC for AWS EC2 Bootstraping, Observability and Maintenance |
 
 ## System Design and Cloud Architecture
 
