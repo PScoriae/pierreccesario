@@ -64,15 +64,6 @@ Here's an overview of the implemented system design and cloud architecture for t
 
 ![cloud-architecture](https://github.com/PScoriae/PCPartsTool/blob/main/docs/cloud-arch.webp?raw=true)
 
-# Findings
-
-Seeing as this project also served as my degree's final year project, I had to make an accompanying report for my findings. I do not plan to publish said report, but in case you are someone who has seen my resume, you might be wondering how I got the claimed numbers for the reduced deployment times due to the use of Ansible, Terraform or Jenkins. Hence, here's the data for that:
-
-![terraform](/img/pcpartstool/terraform.webp)
-![ansible](/img/pcpartstool/ansible.webp)
-![jenkins](/img/pcpartstool/jenkins.webp)
-![playwright](/img/pcpartstool/playwright.webp)
-
 # Accomplishments
 
 - Architected and designed full stack cloud web app **(System Design/Software Architecture, AWS)**
