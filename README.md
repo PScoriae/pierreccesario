@@ -1,5 +1,11 @@
 <div align='center'>
-<a href='https://jenkins.pierreccesario.com/job/pierreccesario.com/'><img src='https://jenkins.pierreccesario.com/buildStatus/icon?job=pierreccesario.com&style=flat-square'></a>
+<a href='https://jenkins.pierreccesario.com/job/pierreccesario.com/'>
+  <img src='https://jenkins.pierreccesario.com/buildStatus/icon?job=pierreccesario.com&style=flat-square&subject=pierreccesario.com%20build'>
+</a>
+</br>
+<a href='https://jenkins.pierreccesario.com/job/music.pierreccesario.com/'>
+  <img src='https://jenkins.pierreccesario.com/buildStatus/icon?job=music.pierreccesario.com&style=flat-square&subject=music.pierreccesario.com%20build'>
+</a>
 <p>
   <a href="https://linkedin.com/in/pierreccesario">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
