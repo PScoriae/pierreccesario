@@ -7,7 +7,7 @@ pipeline {
             when { changeset "main/**/*"}
             steps {
                 dir('main') {
-                    sh 'sudo /usr/local/bin/hugo'
+                    sh 'hugo'
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             when { changeset "music/**/*"}
             steps {
                 dir('music') {
-                    sh 'sudo /usr/local/bin/hugo'
+                    sh 'hugo'
                 }
             }
         }
