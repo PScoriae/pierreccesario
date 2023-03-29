@@ -1,0 +1,21 @@
+pipeline {
+
+    agent any
+    
+    stages {
+        stage("Hugo Build Main Site") {
+            steps {
+                dir('main') {
+                    sh 'sudo hugo'
+                }
+            }
+        }
+        stage("Push Main Files to S3 Bucket") {
+            steps {
+                dir('main') {
+                    sh 'hugo deploy'
+                }
+            }
+        }
+    }
+}
