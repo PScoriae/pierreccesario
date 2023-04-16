@@ -34,7 +34,7 @@ You might have noticed that I've deployed it onto a Kubernetes cluster and think
 
 ## Source Code
 
-As usual, in FOSS spirit, all source code is available on the [GitHub repo](https://github.com/shuttleday/shuttleday) should you want to host it for yourself or verify the code for security vulnerabilities.
+As usual, in FOSS spirit, all source code and full documentation is available on the [GitHub repo](https://github.com/shuttleday/shuttleday) should you want to host it for yourself or verify the code for security vulnerabilities.
 
 ## Tech Stack
 
@@ -47,6 +47,7 @@ As usual, in FOSS spirit, all source code is available on the [GitHub repo](http
 
 ## Features
 
+- Kubernetes HA Deployment
 - Passwordless Authentication
 - Badminton Session Creation and Participation
 - Payment Receipt Upload and Retrieval
@@ -54,16 +55,16 @@ As usual, in FOSS spirit, all source code is available on the [GitHub repo](http
 
 ## System Design and Cloud Architecture
 
+TODO!
 Here's an overview of the implemented system design and cloud architecture for the project:
 
 ![cloud-architecture](https://github.com/PScoriae/PCPartsTool/blob/main/docs/cloud-arch.webp?raw=true)
 
 # Accomplishments
 
-- Architected and designed full stack cloud web app **(System Design/Software Architecture, AWS)**
-- Leveraged IaC and CaC to programmatically set up and tear down one-click cloud infrastructure deployments with full observability and monitoring across multiple platforms **(Terraform, Ansible, Prometheus, Grafana, Docker)**
-- Engineered CI/CD pipelines with GitHub Webhooks integration to automatically run Docker builds, E2E tests and deployment onto servers **(Jenkins, Ansible, Playwright, Docker Compose, AWS EC2, RHEL)**
-- Designed and implemented a SvelteKit MongoDB CRUD WebApp with Tailwind CSS **(SvelteKit, MongoDB, TailwindCSS)**
-- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project, providing explanations of our DevOps practices **(Documentation, Markdown)**
-
-Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/PCPartsTool).
+- SaaS web app that enables users to collaboratively schedule badminton sessions
+- Architected multi-AWS service architecture
+- Engineered multi-stage Jenkins CI/CD pipelines to automate build and deployments; ensure code quality and tests
+- Configured and managed Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS encryption
+- Integrated Google login to the onboarding flow for passwordless JWT authentication and to decrease user friction
+- Ensured security of the project by with proper AWS IAM usage and securely storing hashed passwords and secrets
