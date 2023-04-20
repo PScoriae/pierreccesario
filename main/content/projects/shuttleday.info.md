@@ -1,7 +1,30 @@
 ---
 title: "shuttleday.info"
-draft: true
+description: The home-grown and self-hosted Badminton session scheduling web app.
+summary: The home-grown and self-hosted Badminton session scheduling web app.
+cover:
+  image: img/pcpartstool/cover.webp
+  alt: shuttleday cover
+tags:
+  - Kubernetes
+  - ArgoCD
+  - JWT
+  - Express
+  - TypeScript
+  - Node.js
+  - Terraform
+  - Ansible
+  - Jest
+  - Docker
+  - Jenkins CI
+  - AWS
+  - Cloudflare
+  - GitHub
+  - DevOps
+  - GitOps
+  - Hybrid Cloud
 weight: 8
+draft: true
 ---
 
 [aws]: https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white
@@ -37,22 +60,23 @@ You might have noticed that I've deployed it onto a Kubernetes cluster and think
 
 As usual, in FOSS spirit, all source code and full documentation is available on the [GitHub repo](https://github.com/shuttleday/shuttleday) should you want to host it for yourself or verify the code for security vulnerabilities.
 
-## Tech Stack
-
-| Infrastructure                   | CI/CD        | Container Orchestration | Backend                          | Frontend                        |
-| -------------------------------- | ------------ | ----------------------- | -------------------------------- | ------------------------------- |
-| ![][aws] <br> ![][red-hat]       | ![][jenkins] | ![][kubernetes]         | ![][mongodb]                     | ![][react] <br> ![][javascript] |
-| ![][terraform] <br> ![][ansible] | ![][jest]    | ![][argocd]             | ![][nodejs] <br> ![][typescript] | ![][webpack]                    |
-| ![][nginx]                       | ![][docker]  |                         | ![][expressjs] <br> ![][jwt]     | ![][material-ui]                |
-| ![][cloudflare]                  |              |                         |                                  |                                 |
-
 ## Features
 
+- GitOps Workflow
 - Kubernetes HA Deployment
 - Passwordless Authentication
 - Badminton Session Creation and Participation
 - Payment Receipt Upload and Retrieval
 - Admin Tooling
+
+## Tech Stack
+
+| Infrastructure                   | Continuous Integration | Container Orchestration | Backend                          | Frontend                        |
+| -------------------------------- | ---------------------- | ----------------------- | -------------------------------- | ------------------------------- |
+| ![][aws] <br> ![][red-hat]       | ![][jenkins]           | ![][kubernetes]         | ![][mongodb]                     | ![][react] <br> ![][javascript] |
+| ![][terraform] <br> ![][ansible] | ![][jest]              | ![][argocd]             | ![][nodejs] <br> ![][typescript] | ![][webpack]                    |
+| ![][nginx]                       | ![][docker]            |                         | ![][expressjs] <br> ![][jwt]     | ![][material-ui]                |
+| ![][cloudflare]                  |                        |                         |                                  |                                 |
 
 ## System Design and Cloud Architecture
 
@@ -62,9 +86,11 @@ Here's an overview of the implemented system design and hybrid cloud architectur
 
 # Accomplishments
 
-- SaaS web app that enables users to collaboratively schedule badminton sessions
-- Architected multi-AWS service architecture
-- Engineered multi-stage Jenkins CI/CD pipelines to automate build and deployments; ensure code quality and tests
+- Architected hybrid cloud GitOps Kubernetes architecture
+- Engineered multi-branch Jenkins CI pipelines to automate builds on PR; ensure code quality with tests
+- Implemented ArgoCD GitOps workflow for Continuous Deployment
+- Developed robust Kubernetes manifests for containerised deployments
 - Configured and managed Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS encryption
 - Integrated Google login to the onboarding flow for passwordless JWT authentication and to decrease user friction
 - Ensured security of the project by with proper AWS IAM usage and securely storing hashed passwords and secrets
+- Liaised with stakeholders to implement feature requests
