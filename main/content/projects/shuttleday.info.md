@@ -14,6 +14,7 @@ weight: 8
 [jest]: https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white
 [docker]: https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white
 [kubernetes]: https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white
+[argocd]: https://img.shields.io/badge/Argo%20CD-1e0b3e?style=for-the-badge&logo=argo&logoColor=#d16044
 [mongodb]: https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
 [nodejs]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 [typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
@@ -41,7 +42,7 @@ As usual, in FOSS spirit, all source code and full documentation is available on
 | Infrastructure                   | CI/CD        | Container Orchestration | Backend                          | Frontend                        |
 | -------------------------------- | ------------ | ----------------------- | -------------------------------- | ------------------------------- |
 | ![][aws] <br> ![][red-hat]       | ![][jenkins] | ![][kubernetes]         | ![][mongodb]                     | ![][react] <br> ![][javascript] |
-| ![][terraform] <br> ![][ansible] | ![][jest]    |                         | ![][nodejs] <br> ![][typescript] | ![][webpack]                    |
+| ![][terraform] <br> ![][ansible] | ![][jest]    | ![][argocd]             | ![][nodejs] <br> ![][typescript] | ![][webpack]                    |
 | ![][nginx]                       | ![][docker]  |                         | ![][expressjs] <br> ![][jwt]     | ![][material-ui]                |
 | ![][cloudflare]                  |              |                         |                                  |                                 |
 
@@ -55,10 +56,9 @@ As usual, in FOSS spirit, all source code and full documentation is available on
 
 ## System Design and Cloud Architecture
 
-TODO!
-Here's an overview of the implemented system design and cloud architecture for the project:
+Here's an overview of the implemented system design and hybrid cloud architecture for the project:
 
-![cloud-architecture](https://github.com/PScoriae/PCPartsTool/blob/main/docs/cloud-arch.webp?raw=true)
+![cloud-architecture](https://github.com/shuttleday/shuttleday/blob/main/docs/images/systemArchitecture.webp?raw=true)
 
 # Accomplishments
 
