@@ -23,6 +23,8 @@ menu:
 params:
   env: "production"
   googleAnalyticsID: "G-8XRXNCDV3N"
+  ShowCodeCopyButtons: true
+  ShowToc: true
   profileMode:
     enabled: true
     title: "Pierre Corazo Cesario"
