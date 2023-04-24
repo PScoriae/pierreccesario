@@ -40,6 +40,8 @@ params:
       url: "https://www.linkedin.com/in/pierreccesario/"
     - name: "GitHub"
       url: "https://github.com/PScoriae"
+    - name: "GitLab"
+      url: "https://gitlab.com/PScoriae"
     - name: "StackOverflow"
       url: "https://stackoverflow.com/users/17645610/pscoriae"
     - name: "Email"
