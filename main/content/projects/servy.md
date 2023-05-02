@@ -35,13 +35,13 @@ I needed the server to be economical as possible but with as much computing powe
 
 # Services
 
-| Service            | Description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------- |
-| Wireguard          | VPN to securely tunnel into my home network e.g. myself or an external server running Uptime Kuma |
-| Adguard Home       | Internal home DNS and network-wide adblocker                                                      |
-| SMB Share          | NAS for storing my files and hourly Time Machine backups                                          |
-| Kubernetes Cluster | Three-node staging environment for production projects                                            |
-| Virtual Desktops   | On-demand virtual desktops (Fedora, AlmaLinux, Windows 11) for remote computing                   |
+| Service            | Description                                                                                               |
+| ------------------ | --------------------------------------------------------------------------------------------------------- |
+| Tailscale          | VPN overlay to securely tunnel into my home network e.g. myself or an external server running Uptime Kuma |
+| Adguard Home       | Internal home DNS and network-wide adblocker                                                              |
+| SMB Share          | NAS for storing my files and hourly Time Machine backups                                                  |
+| Kubernetes Cluster | Three-node staging environment for production projects                                                    |
+| GitLab Runners     | Self-hosted runners for GitLab CI                                                                         |
 
 For all services' live status updates, visit [status.pierreccesario.com](https://status.pierreccesario.com)
 
