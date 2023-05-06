@@ -13,6 +13,9 @@ defaults:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions: # for aws creds
+      id-token: write
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v3
