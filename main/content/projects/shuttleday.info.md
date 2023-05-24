@@ -1,12 +1,13 @@
 ---
 title: "shuttleday.info"
-description: The home-grown and self-hosted Badminton session scheduling web app.
-summary: The home-grown and self-hosted Badminton session scheduling web app.
+description: The self-hosted Badminton session scheduling web app.
+summary: The self-hosted Badminton session scheduling web app.
 cover:
   image: img/banner_shuttleday.webp
   alt: shuttleday cover
 tags:
   - Kubernetes
+  - Kustomize
   - ArgoCD
   - JWT
   - Express
@@ -16,7 +17,7 @@ tags:
   - Ansible
   - Jest
   - Docker
-  - Jenkins CI
+  - GitHub Actions CI
   - AWS
   - Cloudflare
   - GitHub
@@ -24,16 +25,17 @@ tags:
   - GitOps
   - Hybrid Cloud
 weight: 8
-draft: true
 ---
 
 [aws]: https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white
+[digitalocean]: https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=DigitalOcean&logoColor=white
+[proxmox]: https://img.shields.io/badge/Proxmox-000000?style=for-the-badge&logo=Proxmox&logoColor=orange
 [red-hat]: https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white
 [terraform]: https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white
 [ansible]: https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white
 [nginx]: https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white
 [cloudflare]: https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white
-[jenkins]: https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white
+[github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white
 [jest]: https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white
 [docker]: https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white
 [kubernetes]: https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white
@@ -45,8 +47,9 @@ draft: true
 [jwt]: https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white
 [react]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-[webpack]: https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white
+[vite]: https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E
 [material-ui]: https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white
+[tailwind]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 
 # About
 
@@ -60,23 +63,31 @@ You might have noticed that I've deployed it onto a Kubernetes cluster and think
 
 As usual, in FOSS spirit, all source code and full documentation is available on the [GitHub repo](https://github.com/shuttleday/shuttleday) should you want to host it for yourself or verify the code for security vulnerabilities.
 
-## Features
+## Developer Highlights
 
 - GitOps Workflow
 - Kubernetes HA Deployment
-- Passwordless Authentication
-- Badminton Session Creation and Participation
-- Payment Receipt Upload and Retrieval
-- Admin Tooling
+- Automated staging and production Deployments
+- Bastion-host restricted staging environment
+- Automated setup and configuration with Terraform and Ansible code
+- Hybrid Cloud architecture
+
+## User Features
+
+- Passwordless authentication
+- Badminton session creation and participation
+- Custom groups (rooms)
+- Payment receipt upload and retrieval
+- Admin tooling
 
 ## Tech Stack
 
-| Infrastructure                   | Continuous Integration | Container Orchestration | Backend                          | Frontend                        |
-| -------------------------------- | ---------------------- | ----------------------- | -------------------------------- | ------------------------------- |
-| ![][aws] <br> ![][red-hat]       | ![][jenkins]           | ![][kubernetes]         | ![][mongodb]                     | ![][react] <br> ![][javascript] |
-| ![][terraform] <br> ![][ansible] | ![][jest]              | ![][argocd]             | ![][nodejs] <br> ![][typescript] | ![][webpack]                    |
-| ![][nginx]                       | ![][docker]            |                         | ![][expressjs] <br> ![][jwt]     | ![][material-ui]                |
-| ![][cloudflare]                  |                        |                         |                                  |                                 |
+| Infrastructure                                    | Continuous Integration | Container Orchestration | Backend                      | Frontend                  |
+| ------------------------------------------------- | ---------------------- | ----------------------- | ---------------------------- | ------------------------- |
+| ![][aws] <br> ![][digitalocean] <br> ![][Proxmox] | ![][github-actions]    | ![][kubernetes]         | ![][mongodb]                 | ![][react] <br> ![][vite] |
+| ![][red-hat]                                      | ![][docker]            | ![][argocd]             | ![][typescript]              | ![][javascript]           |
+| ![][terraform] <br> ![][ansible]                  | ![][jest]              |                         | ![][nodejs]                  | ![][tailwind]             |
+| ![][nginx] <br> ![][cloudflare]                   |                        |                         | ![][expressjs] <br> ![][jwt] | ![][material-ui]          |
 
 ## System Design and Cloud Architecture
 
@@ -86,11 +97,10 @@ Here's an overview of the implemented system design and hybrid cloud architectur
 
 # Accomplishments
 
-- Architected hybrid cloud GitOps Kubernetes architecture
-- Engineered multi-branch Jenkins CI pipelines to automate builds on PR; ensure code quality with tests
-- Implemented ArgoCD GitOps workflow for Continuous Deployment
+- Architected GitOps hybrid-cloud deployments; automated staging and prod environments; system health notifiers
+- Engineered secure GitHub Actions CI + GitOps ArgoCD pipelines; code quality, tests and automated deployments
 - Developed robust Kubernetes manifests for containerised deployments
-- Configured and managed Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS encryption
+- Configured automated Cloudflare DNS records to cloud resources with Terraform and Ansible
 - Integrated Google login to the onboarding flow for passwordless JWT authentication and to decrease user friction
-- Ensured security of the project by with proper AWS IAM usage and securely storing hashed passwords and secrets
+- Ensured security of cloud resources; proper AWS IAM usage, hashed secrets, principle of least privilege
 - Liaised with stakeholders to implement feature requests
