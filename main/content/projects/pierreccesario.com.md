@@ -3,7 +3,7 @@ title: "pierreccesario.com"
 description: The very portfolio website that you're currently on!
 summary: The very portfolio website that you're currently on!
 cover:
-  image: img/pierreccesario-cover.webp
+  image: img/banner_pierreccesariocom.webp
   alt: pierreccesario cover
 tags:
   - Hugo
