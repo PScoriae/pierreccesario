@@ -24,7 +24,8 @@ weight: 10
 [terraform]: https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white
 [ansible]: https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white
 [cloudflare]: https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white
-[jenkins]: https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white
+[github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white
+[uptime-kuma]: https://img.shields.io/badge/Uptime_Kuma-84df99?style=for-the-badge&logo=uptime-kuma&logoColor=white
 [github]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [hugo]: https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white
 [markdown]: https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white
@@ -39,11 +40,11 @@ Read the official full-fat how-to and documentation in the [GitHub repository](h
 
 ## Tech Stack
 
-| Infrastructure                   | CI/CD        | Site          |
-| -------------------------------- | ------------ | ------------- |
-| ![][aws] <br> ![][redhat]        | ![][jenkins] | ![][hugo]     |
-| ![][terraform] <br> ![][ansible] | ![][github]  | ![][markdown] |
-| ![][cloudflare]                  |              |               |
+| Infrastructure                   | Monitoring       | CI/CD               | Frontend      |
+| -------------------------------- | ---------------- | ------------------- | ------------- |
+| ![][aws] <br> ![][redhat]        | ![][uptime-kuma] | ![][github-actions] | ![][hugo]     |
+| ![][terraform] <br> ![][ansible] |                  |                     | ![][markdown] |
+| ![][cloudflare]                  |                  |                     |               |
 
 # Accomplishments
 
