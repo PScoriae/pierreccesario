@@ -1,0 +1,2 @@
+<!-- https://digitaldrummerj.me/hugo-links-to-other-pages/#:~:text=To%20accomplish%20the%20goal%20of,html%20.&text=Copy%20this%20code%20snippet%20into%20the%20render%2Dlink. -->
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "https") }} target="_blank"{{ end }} >{{ .Text | safeHTML }}</a>
