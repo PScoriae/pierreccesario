@@ -1,5 +1,5 @@
 ---
-title: "Hatio SEA"
+title: "HatioLab"
 description: Backend Software and DevOps Engineering in Cloud Supply Chain and Logistics
 summary: Backend Software and DevOps Engineering in Cloud Supply Chain and Logistics
 weight: 20
