@@ -22,6 +22,8 @@ menu:
 
 params:
   env: "production"
+  disableThemeToggle: true
+  defaultTheme: dark
   googleAnalyticsID: "G-8XRXNCDV3N"
   ShowCodeCopyButtons: true
   ShowToc: true
