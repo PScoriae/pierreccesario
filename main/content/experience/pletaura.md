@@ -18,5 +18,5 @@ Essentially, we at [Pletaura](https://pletaura.com/), publish tech guides and ho
 
 ## Responsibilities
 
-- Conduct research on a wide range of tech-related problems people face.
-- Produce detailed written guides with step-by-step instructions on how to solve them.
+- Conducted research on a wide range of tech-related problems people face.
+- Produced detailed written guides with step-by-step instructions on how to solve them.

@@ -20,5 +20,5 @@ Our main goal with each guide is to address and present the topic at hand with o
 
 ## Responsibilities
 
-- Conduct research on a wide range of programming-related issues that developers of any level face.
-- Produce detailed written guides with step-by-step instructions that are easily digestible by any proficiency.
+- Conducted research on a wide range of programming-related issues that developers of any level face.
+- Produced detailed written guides with step-by-step instructions that are easily digestible by any proficiency.
