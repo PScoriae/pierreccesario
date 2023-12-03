@@ -2,7 +2,7 @@
 title: "Hatio SEA"
 description: Backend Software and DevOps Engineering in Cloud Supply Chain and Logistics
 summary: Backend Software and DevOps Engineering in Cloud Supply Chain and Logistics
-weight: 10
+weight: 20
 cover:
   image: img/hatiolab-logo-edit.webp
   alt: hatiolab-logo
