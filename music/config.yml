@@ -50,8 +50,6 @@ params:
   socialIcons:
     - name: "AppleMusic"
       url: "https://music.apple.com/profile/pierreccesario"
-    - name: "Spotify"
-      url: "https://open.spotify.com/user/pietries?si=810fe97c34fa489b"
     - name: "Discord"
       url: "https://discordapp.com/users/158403963501281280"
     - name: "kofi"
