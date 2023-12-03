@@ -28,7 +28,7 @@ params:
   profileMode:
     enabled: true
     title: "Pierre Corazo Cesario"
-    subtitle: "Backend Software and DevOps Engineer"
+    subtitle: "Site Reliability Engineer"
     buttons:
       - name: Experience
         url: "/experience"
