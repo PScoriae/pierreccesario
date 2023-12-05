@@ -9,11 +9,11 @@ tags:
   - TypeScript
   - Discord.js
   - Docker
-  - Jenkins CI/CD
-  - AWS EC2
+  - Jenkins
+  - AWS
   - DevOps
   - Documentation
-  - kpop
+  - Kpop
 weight: 20
 ---
 

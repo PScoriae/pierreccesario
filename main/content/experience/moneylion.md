@@ -12,7 +12,6 @@ tags:
   - AWS EKS
   - GitOps
   - AWS
-  - Agile
   - DevOps
 ---
 

@@ -7,10 +7,9 @@ cover:
   alt: pierreccesario cover
 tags:
   - Hugo
-  - Jenkins CI
+  - Jenkins
   - AWS
   - Cloudflare
-  - Documentation
   - Markdown
   - GitHub
   - Terraform

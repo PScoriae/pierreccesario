@@ -15,9 +15,8 @@ tags:
   - Node.js
   - Terraform
   - Ansible
-  - Jest
   - Docker
-  - GitHub Actions CI
+  - GitHub Actions
   - AWS
   - Cloudflare
   - GitHub

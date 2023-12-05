@@ -8,28 +8,20 @@ cover:
 tags:
   - SvelteKit
   - TypeScript
-  - JavaScript
   - Tailwind CSS
   - MongoDB
   - Playwright
-  - AWS
-  - AWS EC2
-  - AWS S3
   - Nginx
-  - Jenkins CI/CD
+  - Jenkins
   - Docker
   - Cloudflare
   - Terraform
   - Ansible
   - Prometheus
   - Grafana
-  - Red Hat Enterprise Linux
-  - Website Hosting and Deployment
-  - System Design
-  - Software Architecture
-  - Documentation
   - GitHub
   - DevOps
+  - AWS
 weight: 9
 ---
 

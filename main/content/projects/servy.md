@@ -3,14 +3,10 @@ title: "Servy"
 description: A self-built home server/homelab for hosting personal projects and services.
 summary: A self-built home server/homelab for hosting personal projects and services.
 tags:
-  - Linux System Administration
-  - RHEL
-  - Ubuntu
+  - Linux
   - Proxmox
-  - Virtual Machines
   - Kubernetes
   - VPN
-  - Computers
 weight: 30
 ---
 
