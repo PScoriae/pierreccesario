@@ -12,6 +12,7 @@ tags:
   - Datadog
   - ArgoCD
   - GitOps
+  - Cloudflare
   - AWS
   - DevOps
 ---
