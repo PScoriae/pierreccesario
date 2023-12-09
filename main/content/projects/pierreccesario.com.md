@@ -7,7 +7,7 @@ cover:
   alt: pierreccesario cover
 tags:
   - Hugo
-  - Jenkins
+  - GitHub Actions
   - AWS
   - Cloudflare
   - Markdown
@@ -15,6 +15,7 @@ tags:
   - Terraform
   - Ansible
   - DevOps
+  - GitOps
 weight: 10
 ---
 

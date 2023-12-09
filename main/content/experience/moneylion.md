@@ -9,7 +9,8 @@ cover:
 tags:
   - Terraform
   - Kubernetes
-  - AWS EKS
+  - Datadog
+  - ArgoCD
   - GitOps
   - AWS
   - DevOps
