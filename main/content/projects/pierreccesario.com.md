@@ -50,7 +50,7 @@ Read the official full-fat how-to and documentation in the [GitHub repository](h
 | ![][terraform] <br> ![][ansible] |                  |                     | ![][markdown] |
 | ![][cloudflare]                  |                  |                     |               |
 
-# Accomplishments
+# Achievements
 
 - Developed a customised GitHub Actions Workflow to automatically run Hugo builds and deploy to AWS S3 buckets
 - Set up and configure Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS/SSL encryption for secure connections

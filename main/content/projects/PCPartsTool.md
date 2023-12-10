@@ -89,7 +89,7 @@ Seeing as this project also served as my degree's final year project, I had to m
 ![jenkins](/img/pcpartstool/jenkins.webp)
 ![playwright](/img/pcpartstool/playwright.webp)
 
-# Accomplishments
+# Achievements
 
 - Architected and designed full stack cloud web app **(System Design/Software Architecture, AWS)**
 - Leveraged IaC and CaC to programmatically set up and tear down one-click cloud infrastructure deployments with full observability and monitoring across multiple platforms

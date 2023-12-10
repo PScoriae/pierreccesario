@@ -42,7 +42,7 @@ I decided to go with decommissioned server parts as they offered the best perfor
 
 For all services' live status updates, visit [status.pierreccesario.com](https://status.pierreccesario.com)
 
-## Accomplishments
+## Achievements
 
 - Administration of Type 1 hypervisor (Proxmox)
 - Deployed and maintained self-managed Kubernetes cluster

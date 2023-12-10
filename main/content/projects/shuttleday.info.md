@@ -94,7 +94,7 @@ Here's an overview of the implemented system design and hybrid cloud architectur
 
 ![cloud-architecture](https://github.com/shuttleday/shuttleday/blob/main/docs/images/systemArchitecture.webp?raw=true)
 
-# Accomplishments
+# Achievements
 
 - Architected GitOps hybrid-cloud deployments; automated staging and prod environments; system health notifiers
 - Engineered secure GitHub Actions CI + GitOps ArgoCD pipelines; code quality, tests and automated deployments

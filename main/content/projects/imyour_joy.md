@@ -25,7 +25,7 @@ In its current state, this is a Kpop themed Discord bot that with features that 
 
 Complying with Discord's announcement regarding _[Message Content Access Deprecation for Verified Bots](https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Access-Deprecation-for-Verified-Bots)_, this bot only uses Slash Commands. Though this change only applies to Verified Bots, I still want to use Slash Commands so that I hopefully don't encounter any headaches in the future.
 
-## Accomplishments
+## Achievements
 
 - Developed a customised Jenkins CI/CD Pipeline that integrates with GitHub Webhooks to automatically run Docker builds and deployment onto servers
 - Engineered and implemented YouTube and Spotify Web API integrations to periodically send relevant YouTube links from a randomised list of songs in a Spotify playlist
