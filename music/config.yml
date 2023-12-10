@@ -32,7 +32,6 @@ menu:
 
 params:
   env: "production"
-  googleAnalytics: "G-PDTHCGQGHJ"
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
