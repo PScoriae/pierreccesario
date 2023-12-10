@@ -34,11 +34,11 @@ Hatio SEA is the Malaysian branch that focuses on three main products: Operato W
 
 Backend development in a large monorepo following the Agile based methodology with cross-country teams
 
-- Developed and enhanced TypeGraphQL resolver middle-ware to sync warehouse stock and orders with external APIs **(TypeGraphQL, PostgreSQL)**
-- Designed and implemented Typescript REST API endpoints and led a team of 2 interns **(TypeScript, TypeORM, PostgresQL, REST, Node.js, Koa.js)**
-- Developed and deployed Apache Airflow Python DAGs to increase repeatability, reliability and scalability of API calls **(Python, Apache Airflow, AWS Elastic Kubernetes Service, AWS Managed Workflows for Apache Airflow)**
-- Spearheaded R&D and implementation of end-to-end testing unit testing to solidify test results and rapidly increase deployment speed of features and bug fixes in bi-weekly sprints as part of our DevOps practices **(Cypress, Jest)**
-- Increased QA testing efficiency and repeatability through Bash scripting automation **(Bash, Yarn)**
+- Developed and enhanced TypeGraphQL resolver middle-ware to sync warehouse stock and orders with external APIs
+- Designed and implemented Typescript REST API endpoints and led a team of 2 interns
+- Developed and deployed Apache Airflow Python DAGs to increase repeatability, reliability and scalability of API calls
+- Spearheaded R&D and implementation of end-to-end testing unit testing to solidify test results and rapidly increase deployment speed of features and bug fixes in bi-weekly sprints as part of our DevOps practices
+- Increased QA testing efficiency and repeatability through Bash scripting automation
 
 ### Time in Role
 

@@ -43,7 +43,7 @@ For all services' live status updates, visit [status.pierreccesario.com](https:/
 
 ## Accomplishments
 
-- Administration of Type 1 hypervisor (Proxmox) **(RHEL, Ubuntu, Linux Server Administration)**
-- Deployed and maintained self-managed Kubernetes cluster **(Kubernetes)**
-- Set up and configured internal home networking for all services **(Networking)**
-- Deployed guests for remote access development **(Virtual Machines)**
+- Administration of Type 1 hypervisor (Proxmox)
+- Deployed and maintained self-managed Kubernetes cluster
+- Set up and configured internal home networking for all services
+- Deployed guests for remote access development

@@ -48,6 +48,6 @@ Read the official full-fat how-to and documentation in the [GitHub repository](h
 
 # Accomplishments
 
-- Developed a customised Jenkins CI/CD Pipeline that integrates with GitHub Webhooks to automatically run Hugo builds on AWS EC2 and deployments to AWS S3 buckets **(Hugo, Jenkins, AWS S3, AWS EC2)**
-- Set up and configure Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS/SSL encryption for secure connections **(Cloudflare, AWS S3, Web Hosting)**
-- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project **(Documentation, Markdown)**
+- Developed a customised GitHub Actions Workflow to automatically run Hugo builds and deploy to AWS S3 buckets
+- Set up and configure Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS/SSL encryption for secure connections
+- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project

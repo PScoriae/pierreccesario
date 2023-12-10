@@ -12,6 +12,8 @@ tags:
   - Jenkins
   - AWS
   - DevOps
+  - BeautifulSoup4
+  - Cheerio
   - Documentation
   - Kpop
 weight: 20
@@ -25,10 +27,10 @@ Complying with Discord's announcement regarding _[Message Content Access Depreca
 
 ## Accomplishments
 
-- Developed a customised Jenkins CI/CD Pipeline that integrates with GitHub Webhooks to automatically run Docker builds and deployment onto servers **(Jenkins, Docker)**
-- Engineered and implemented YouTube and Spotify Web API integrations to periodically send relevant YouTube links from a randomised list of songs in a Spotify playlist **(TypeScript, Python, Cron Job)**
-- Developed a pipeline for automated image web scraping and integration with Discord servers **(Cheerio, BeautifulSoup4)**
-- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project **(Documentation, Markdown)**
+- Developed a customised Jenkins CI/CD Pipeline that integrates with GitHub Webhooks to automatically run Docker builds and deployment onto servers
+- Engineered and implemented YouTube and Spotify Web API integrations to periodically send relevant YouTube links from a randomised list of songs in a Spotify playlist
+- Developed a pipeline for automated image web scraping and integration with Discord servers
+- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project
 
 Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/imyour_joy).
 
