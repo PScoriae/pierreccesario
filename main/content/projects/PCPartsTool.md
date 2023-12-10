@@ -91,7 +91,7 @@ Seeing as this project also served as my degree's final year project, I had to m
 
 # Achievements
 
-- Architected and designed full stack cloud web app **(System Design/Software Architecture, AWS)**
+- Architected and designed full stack cloud web app
 - Leveraged IaC and CaC to programmatically set up and tear down one-click cloud infrastructure deployments with full observability and monitoring across multiple platforms
 - Engineered CI/CD pipelines with GitHub Webhooks integration to automatically run Docker builds, E2E tests and deployment onto servers
 - Designed and implemented a SvelteKit MongoDB CRUD WebApp with Tailwind CSS
