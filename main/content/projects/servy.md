@@ -18,7 +18,8 @@ Additionally, it's used as a test server for my projects before I deploy them to
 
 ## Specifications
 
-I needed the server to be economical as possible but with as much computing power as possible to support all the testing and sandboxing I have planned for it. I decided to go with decommissioned server parts as they offered the best performance per dollar.
+I needed the server to be economical as possible but with as much computing power as possible to support all the testing and sandboxing I had planned for it.
+I decided to go with decommissioned server parts as they offered the best performance per dollar.
 
 | Component   | Model                      |
 | ----------- | -------------------------- |
