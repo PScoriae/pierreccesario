@@ -23,7 +23,10 @@ weight: 20
 
 In its current state, this is a Kpop themed Discord bot that with features that appeal to Kpop fans.
 
-Complying with Discord's announcement regarding _[Message Content Access Deprecation for Verified Bots](https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Access-Deprecation-for-Verified-Bots)_, this bot only uses Slash Commands. Though this change only applies to Verified Bots, I still want to use Slash Commands so that I hopefully don't encounter any headaches in the future.
+Complying with Discord's announcement regarding _[Message Content Access Deprecation for Verified Bots](https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Access-Deprecation-for-Verified-Bots)_, this bot only uses Slash Commands.
+Though this change only applies to Verified Bots, I still want to use Slash Commands so that I hopefully don't encounter any headaches in the future.
+
+Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/imyour_joy).
 
 ## Achievements
 
@@ -31,12 +34,3 @@ Complying with Discord's announcement regarding _[Message Content Access Depreca
 - Engineered and implemented YouTube and Spotify Web API integrations to periodically send relevant YouTube links from a randomised list of songs in a Spotify playlist
 - Developed a pipeline for automated image web scraping and integration with Discord servers
 - Composed and formatted precise and informative documentation to aid understanding and deployment process of the project
-
-Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/imyour_joy).
-
-## Built With
-
-- [TypeScript](https://www.typescriptlang.org/)
-- [Discord.js](https://discord.js.org/#/)
-- [Docker](https://www.docker.com/)
-- [Jenkins](https://www.jenkins.io/)
