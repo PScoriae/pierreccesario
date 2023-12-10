@@ -12,6 +12,7 @@ tags:
   - Cloudflare
   - Markdown
   - GitHub
+  - GitHub Actions
   - Terraform
   - Ansible
   - DevOps
@@ -32,9 +33,12 @@ weight: 10
 
 # About
 
-Essentially, this site is my .com, so it'll have everything that pertains to me and my career that I think you'll find important or interesting whether you're a recruiter or someone getting to know me better. Since this website can also act as a platform for me to express my opinions about things, I may also post some reviews or opinion articles here too.
+Essentially, this site is my .com, so it'll have everything that pertains to me and my career that I think you'll find important or interesting whether you're a recruiter or someone getting to know me better.
+Since this website can also act as a platform for me to express my opinions about things, I may also post some reviews or opinion articles here too.
 
-To get into the technical aspect of this website, it leverages the power of [Hugo](https://gohugo.io/) to generate a static website and its HTML pages from source markdown files. All of this is automatically deployed with [Jenkins](https://www.jenkins.io/) from the GitHub repository using AWS services like [EC2](https://aws.amazon.com/ec2/) and [S3](https://aws.amazon.com/s3/) along with [Cloudflare's](https://www.cloudflare.com/) robust CDN and DNS.
+To get into the technical aspect of this website, it leverages the power of [Hugo](https://gohugo.io/) to generate a static website and its HTML pages from source markdown files.
+All of this is automatically built with a custom GitHub Actions Workflow and is deployed onto [S3.](https://aws.amazon.com/s3/)
+The site then sits behind [Cloudflare's](https://www.cloudflare.com/) robust CDN and DNS.
 
 Read the official full-fat how-to and documentation in the [GitHub repository](https://github.com/PScoriae/pierreccesario).
 
