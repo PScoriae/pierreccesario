@@ -39,29 +39,27 @@
 
 ## About
 
-Essentially, this site is my .com, so it'll have everything that pertains to me and my career that I think you'll find important or fascinating whether you're a recruiter or someone getting to know me better. Since this website can also act as a platform for me to express my opinions about things, I may also post some reviews or opinion articles here too.
+Essentially, this site is my .com, so it'll have everything that pertains to me and my career that I think you'll find important or fascinating whether you're a recruiter or someone getting to know me better.
+Since this website can also act as a platform for me to express my opinions about things, I may also post some reviews or opinion articles here too.
 
-To get into the technical aspect of this website, it leverages the power of [Hugo](https://gohugo.io/) to generate a static website and its HTML pages from source markdown files. All of this is automatically deployed with [Jenkins](https://www.jenkins.io/) from the GitHub repository using AWS services like [EC2](https://aws.amazon.com/ec2/) and [S3](https://aws.amazon.com/s3/) along with [Cloudflare's](https://www.cloudflare.com/) robust CDN and DNS.
+To get into the technical aspect of this website, it leverages the power of [Hugo](https://gohugo.io/) to generate a static website and its HTML pages from source markdown files.
+All of this is automatically built with a custom GitHub Actions Workflow and is deployed onto [S3.](https://aws.amazon.com/s3/)
+The site then sits behind [Cloudflare's](https://www.cloudflare.com/) robust CDN and DNS.
 
 ### Built With
 
 - [Hugo](https://gohugo.io/)
-- [Jenkins](https://www.jenkins.io/)
-- [AWS EC2](https://aws.amazon.com/ec2/)
+- [GitHub Actions](https://github.com/features/actions)
 - [AWS S3](https://aws.amazon.com/s3/)
 - [Cloudflare](https://www.cloudflare.com/)
 
 ## Initial Setup
 
-You'll need a few things set up, mainly for web hosting and the Jenkins CI/CD pipeline:
+You'll need a few things in the cloud set up:
 
-1. Your Hugo Website
+1. AWS S3
 
-2. AWS S3
-
-3. AWS EC2
-
-4. Cloudflare
+2. Cloudflare
 
 Refer to the included links in the [Acknowledgements](#acknowledgements) section to set them up correctly with the correct Security Control Groups and settings.
 
@@ -80,41 +78,21 @@ Unsurprisingly, it also becomes the perfect task for automation purposes.
 
 This section will detail how to set up the Jenkins CI/CD pipeline using the aforementioned services.
 
-### EC2 Configuration
+### Hugo `config.yaml`
 
-For this project, since the static site is being hosted on the S3 bucket and no active server-side rendering is used, an AWS EC2 instance will be used to host the Jenkins CI/CD server.
+All you need to do here is update `deployment.target.URL` in the `config.yaml` file for your site with the correct S3 bucket URL.
 
-As such, you'll need the following packages on your EC2 instance to be installed:
+### GitHub Actions Workflow
 
-1. Jenkins
+The naive method to upload files to S3 using a CI tool is to use the `aws s3 cp` command.
+The issue with this is that it copies the entire `/public` folder into S3, even if the files did not change - the upload isn't incremental.
+This becomes a cost issue since [S3 charges based on the number of PUT calls you make](https://aws.amazon.com/s3/pricing/).
+Ergo, your cost goes up proportionally with how many times you deploy how big your project is; this is clearly an antipattern for DevOps!
 
-2. Hugo
+The clear and easy solution is to use the built in [`hugo deploy`](https://gohugo.io/hosting-and-deployment/hugo-deploy/) command.
+Under the hood, it uses the author's own [`s3deploy`](https://github.com/bep/s3deploy) project, which "uses ETag hashes to check if a file has changed, which makes it optimal in combination with static site generators like Hugo".
 
-3. AWS CLI
-
-Since the S3 bucket will have to communciate with Cloudflare and EC2, the appropriate Security Groups will have to be configured.
-
-### Jenkins Configuration
-
-Essentially, you'll need to create a new Pipeline that points to the Jenkinsfile in the repository.
-
-Then, the following settings should be configured accordingly:
-
-- Discard old builds
-
-- GitHub hook trigger for GITScm polling
-
-- Excluded regions
-
-### GitHub Webhook
-
-The endpoint that the webhook will have to push a POST request to will be based on your EC2 server's Public IPv4 DNS address. Then, you'll need to append the port of the Jenkins instance (8080 by default) as well as the endpoint that Jenkins is expecting.
-
-So, the endpoint in the GitHub Webhooks section of your repository should look a little something like this:
-
-`http://ec2-12-34-56-789.ap-southeast-1.compute.amazonaws.com:8080/github-webhook/`
-
-Be sure to append the trailing slash at the end or it won't work.
+Essentially, all you need to do is configure the `aws-actions/configure-aws-credentials@v2` plugin with the IAM role that has access to your S3 bucket.
 
 ## Acknowledgements
 
