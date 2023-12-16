@@ -22,14 +22,20 @@
   <ol>
     <li>
       <a href="#about">About</a>
+      <ul>
+      <li>
+        <a href="#built-with">Built With</a>
+      </li>
+      </ul>
     </li>
-    <li><a href="#initial-setup">Initial Setup</a></li>
+    <li>
+      <a href="#initial-setup">Initial Setup</a>
+    </li>
     <li>
       <a href="#deployment-configuration">Deployment Configuration</a>
       <ul>
-        <li><a href="#ec2-configuration">EC2 Configuration</a></li>
-        <li><a href="#jenkins-configuration">Jenkins Configuration</a></li>
-        <li><a href="#github-webhook">GitHub Webhook</a></li>
+        <li><a href="#hugo-configyml">Hugo config.yml</a></li>
+        <li><a href="#github-actions-workflow">GitHub Actions Workflow</a></li>
       </ul>
     </li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
