@@ -7,7 +7,7 @@ cover:
   image: img/pletaura-blue-logo1.webp
   alt: pletaura-blue-logo
 tags:
-  - writing
+  - Writing
 ---
 
 ## About

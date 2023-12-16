@@ -7,7 +7,7 @@ cover:
   image: img/gc-gradient-logo.svg
   alt: guidingcode-logo
 tags:
-  - writing
+  - Writing
 ---
 
 ## About
