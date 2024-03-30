@@ -10,15 +10,10 @@ menu:
       name: Tags
       url: /tags
       weight: 50
-    - identifier: music-reviews
-      name: Music Reviews
-      url: https://music.pierreccesario.com
-      weight: 100
     - identifier: uptime-kuma
       name: Live Service Status
       url: https://status.pierreccesario.com
       weight: 120
-
 
 params:
   env: "production"
