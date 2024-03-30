@@ -2,8 +2,6 @@
 
 [![pierreccesario.com CI](https://github.com/PScoriae/pierreccesario/actions/workflows/main.yml/badge.svg)](https://github.com/PScoriae/pierreccesario/actions/workflows/main.yml)
 
-[![music.pierreccesario.com CI](https://github.com/PScoriae/pierreccesario/actions/workflows/music.yml/badge.svg)](https://github.com/PScoriae/pierreccesario/actions/workflows/music.yml)
-
 <p>
   <a href="https://github.com/PScoriae/pierreccesario/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-WTFPL-brightgreen?style=for-the-badge">
