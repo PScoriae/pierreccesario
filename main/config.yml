@@ -31,6 +31,8 @@ params:
         url: "/experience"
       - name: Projects
         url: "/projects"
+      - name: Blog
+        url: "/blog"
 
   socialIcons:
     - name: "LinkedIn"
