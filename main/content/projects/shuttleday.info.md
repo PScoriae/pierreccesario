@@ -91,7 +91,7 @@ As usual, in FOSS spirit, all source code and full documentation is available on
 
 Here's an overview of the implemented system design and hybrid cloud architecture for the project:
 
-![cloud-architecture](https://github.com/shuttleday/shuttleday/blob/main/docs/images/systemArchitecture.webp?raw=true)
+![cloud-architecture](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/shuttleday.info/cloud-arch.webp)
 
 # Achievements
 

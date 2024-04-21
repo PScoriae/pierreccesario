@@ -78,7 +78,7 @@ Read the official full-fat documentation in the [GitHub repository](https://gith
 
 Here's an overview of the implemented system design and cloud architecture for the project:
 
-![cloud-architecture](https://github.com/PScoriae/PCPartsTool/blob/main/docs/cloud-arch.webp?raw=true)
+![cloud-architecture](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/cloud-arch.webp)
 
 # Findings
 
