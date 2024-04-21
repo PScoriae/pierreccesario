@@ -3,7 +3,7 @@ title: "PCPartsTool"
 description: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
 summary: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
 cover:
-  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/banner_pcpartstool.webp
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/banner.webp
   alt: PCPartsTool Logo
 tags:
   - SvelteKit

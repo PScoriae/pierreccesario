@@ -3,7 +3,7 @@ title: "shuttleday.info"
 description: The self-hosted Badminton session scheduling web app.
 summary: The self-hosted Badminton session scheduling web app.
 cover:
-  image: img/banner_shuttleday.webp
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/shuttleday.info/banner.webp
   alt: shuttleday cover
 tags:
   - Kubernetes
