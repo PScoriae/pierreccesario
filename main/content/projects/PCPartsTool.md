@@ -3,7 +3,7 @@ title: "PCPartsTool"
 description: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
 summary: A SvelteKit Web app | Deployed on AWS, Cloudflare with Jenkins, Terraform and Ansible
 cover:
-  image: img/pcpartstool/banner_pcpartstool.webp
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/banner_pcpartstool.webp
   alt: PCPartsTool Logo
 tags:
   - SvelteKit
@@ -84,10 +84,10 @@ Here's an overview of the implemented system design and cloud architecture for t
 
 Seeing as this project also served as my degree's final year project, I had to make an accompanying report for my findings. I do not plan to publish said report, but in case you are someone who has seen my resume, you might be wondering how I got the claimed numbers for the reduced deployment times due to the use of Ansible, Terraform or Jenkins. Hence, here's the data for that:
 
-![terraform](/img/pcpartstool/terraform.webp)
-![ansible](/img/pcpartstool/ansible.webp)
-![jenkins](/img/pcpartstool/jenkins.webp)
-![playwright](/img/pcpartstool/playwright.webp)
+![terraform](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/terraform.webp)
+![ansible](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/ansible.webp)
+![jenkins](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/jenkins.webp)
+![playwright](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/playwright.webp)
 
 # Achievements
 
