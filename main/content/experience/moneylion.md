@@ -4,7 +4,7 @@ description: Site Reliability Engineering at the World's Most Innovative Finance
 summary: Site Reliability Engineering at the World's Most Innovative Finance and Technology Company
 weight: 10
 cover:
-  image: img/moneylion-logo.webp
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/experience/moneylion/moneylion-logo.webp
   alt: moneylion-logo
 tags:
   - Terraform

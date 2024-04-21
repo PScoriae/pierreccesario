@@ -4,7 +4,7 @@ description: How-to Website
 summary: Freelance Writer for Programming-related Articles
 weight: 98
 cover:
-  image: img/gc-gradient-logo.svg
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/experience/guidingcode/guidingcode-logo.webp
   alt: guidingcode-logo
 tags:
   - Writing

@@ -4,7 +4,7 @@ description: Backend Software Engineering in Cloud Supply Chain and Logistics
 summary: Backend Software Engineering in Cloud Supply Chain and Logistics
 weight: 20
 cover:
-  image: img/hatiolab-logo-edit.webp
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/experience/hatiolab/hatiolab-logo.webp
   alt: hatiolab-logo
 tags:
   - TypeScript

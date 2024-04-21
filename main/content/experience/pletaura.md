@@ -4,7 +4,7 @@ description: How-to Website
 summary: Freelance Writer for Tech-related Articles
 weight: 99
 cover:
-  image: img/pletaura-blue-logo1.webp
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/experience/pletaura/pletaura-logo.webp
   alt: pletaura-blue-logo
 tags:
   - Writing
