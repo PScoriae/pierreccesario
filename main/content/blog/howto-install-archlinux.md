@@ -4,7 +4,7 @@ description: Want to speedrun an Arch install?
 summary: Want to speedrun an Arch install?
 weight: 1
 cover:
-  image: img/archlinux-logo-light.png
+  image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/blog/howto-install-archlinux/archlinux-logo-light.webp
   alt: archlinux logo
 tags:
   - howto
