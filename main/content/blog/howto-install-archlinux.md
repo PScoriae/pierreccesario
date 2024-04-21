@@ -198,7 +198,7 @@ Uncomment required locales and generate locale. It’s better to choose the UTF-
 ```bash
 vim /etc/locale.gen
 ---
-\# en_GB.UTF-8 UTF-8
+en_GB.UTF-8 UTF-8
 ---
 locale-gen
 ```
