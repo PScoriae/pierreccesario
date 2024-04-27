@@ -29,7 +29,7 @@ Welcome to MoneyLion, where the 99% can feel 100% about their future.
 
 **Site Reliability Engineer (SRE)**
 
-The SRE team at MoneyLion operates as a dynamic and cross-functional unit, committed to addressing the evolving needs of our primary stakeholders – the developers.
+The SRE team at MoneyLion operates as a dynamic and cross-functional global unit, committed to addressing the evolving needs of our primary stakeholders – the developers.
 
 Our core mission involves continuously fortifying and expanding the resilience and performance of our infrastructure. We play a vital role in streamlining and accelerating the development process for our developers by actively identifying and resolving bottlenecks.
 
