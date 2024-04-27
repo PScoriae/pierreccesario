@@ -19,7 +19,8 @@ tags:
 
 ## About
 
-[MoneyLion](https://www.moneylion.com) was founded in 2013 with the belief that we all get ahead when nobody gets left behind. We are here for the millions of Americans who’ve long been ignored — or even taken advantage of — by traditional banks.
+[MoneyLion](https://www.moneylion.com) was founded in 2013 with the belief that we all get ahead when nobody gets left behind.
+We are here for the millions of Americans who’ve long been ignored — or even taken advantage of — by traditional banks.
 
 We are rewiring the American banking system to make money more approachable and to give consumers a more accessible and sustainable path to their goals.
 
