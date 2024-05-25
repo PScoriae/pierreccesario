@@ -28,14 +28,6 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - name: Cache
-        uses: actions/cache@v4
-        with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-
       - name: Build Site
         run: hugo
 
