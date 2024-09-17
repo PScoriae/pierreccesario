@@ -36,6 +36,14 @@ Our core mission involves continuously fortifying and expanding the resilience a
 
 Our team is dedicated to fostering a robust and efficient development environment while ensuring the seamless operation of our technology stack — all while maintaining a strategic focus on tightening expenditure.
 
+### Achieving price predictability and 55% cost-savings using Amazon Aurora I/O-Optimized and optimized RI purchases
+
+I’m excited and proud to have been part of a project where we reduced Aurora database costs by around 55% while maintaining performance. By migrating our I/O-intensive workloads to Amazon Aurora I/O-Optimized, we not only achieved significant savings but also improved price predictability through optimized Reserved Instance (RI) purchases, setting the stage for future workload migrations.
+
+![cost-reduction](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2024/07/02/Figure2.png)
+
+Read more on the official AWS Database Blog [here!](https://aws.amazon.com/blogs/database/how-moneylion-achieved-price-predictability-and-55-cost-savings-using-amazon-aurora-i-o-optimized-and-optimized-ri-purchases/)
+
 ### Time in Role
 
 Oct 2023 - Present
