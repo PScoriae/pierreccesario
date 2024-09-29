@@ -2,7 +2,7 @@
 title: "HOWTO: Install Arch Linux"
 description: Want to speedrun an Arch install?
 summary: Want to speedrun an Arch install?
-weight: 1
+date: 2024-04-21T18:40:23+08:00
 cover:
   image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/blog/howto-install-archlinux/archlinux-logo-light.webp
   alt: archlinux logo

@@ -2,7 +2,7 @@
 title: "colima: Avoiding Docker Desktop on MacOS"
 description: Because Docker Desktop is no longer free for large businesses.
 summary: Because Docker Desktop is no longer free for large businesses.
-weight: 1
+date: 2024-05-12T19:13:23+08:00
 cover:
   image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/blog/colima/colima-logo.webp
   alt: colima logo
