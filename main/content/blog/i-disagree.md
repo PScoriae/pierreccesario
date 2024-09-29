@@ -1,7 +1,7 @@
 ---
 title: Poppy – I Disagree
-description: Oooh, heavy.
-summary: Oooh, heavy.
+description: Oooh, heavy!
+summary: Oooh, heavy!
 date: 2023-03-13T20:35:23+08:00
 cover:
   image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/blog/i-disagree/i-disagree.webp
@@ -13,6 +13,7 @@ tags:
   - industrial
   - rock
   - electronic
+  - music-review
 ---
 
 {{< applemusic "https://embed.music.apple.com/my/album/i-disagree/1647227480" >}}
