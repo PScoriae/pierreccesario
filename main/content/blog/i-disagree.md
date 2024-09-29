@@ -13,7 +13,7 @@ tags:
   - industrial
   - rock
   - electronic
-  - music-review
+  - music review
 ---
 
 {{< applemusic "https://embed.music.apple.com/my/album/i-disagree/1647227480" >}}
