@@ -61,7 +61,7 @@ When I saw our initial quotas, they were at some weird arbitrary integer like 18
 
 I would imagine AWS uses an algorithm which tracks your usage patterns to preemptively and silently increase your quota.
 
-However, if you're in a situation like us where we need to prescale our infrasturcture in anticipation of a traffic spike, you'll definitely want to make a request beforehand.
+However, if you're in a situation like us where we need to prescale our infrastructure in anticipation of a traffic spike, you'll definitely want to make a request beforehand.
 If not, at least for the savings from Spot!
 
 # Monitoring and Alerting EC2 vCPU Quotas
