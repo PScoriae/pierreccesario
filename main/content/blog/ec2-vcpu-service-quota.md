@@ -20,7 +20,7 @@ Check your Spot vCPU and On-Demand vCPU quotas ASAP.
 
 You could be artifically limiting how many Spot instances you're spinning up, thereby paying more for On-Demand instances instead of provisioning Spot.
 
-Or, it could be how many On-Demand instances you can spin up, which limits the scalablility of your platform.
+Or, it could be how many On-Demand instances you can spin up, which limits the scalability of your platform.
 
 # Background
 
