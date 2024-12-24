@@ -1,7 +1,7 @@
 ---
 title: "EC2 vCPU Quotas: Unlock Hidden Cost Savings and Scalability"
-description: There are quotas for EC2 spot and on-demand instances?
-summary: There are quotas for EC2 spot and on-demand instances?
+description: There are quotas for EC2 Spot and On-Demand instances?
+summary: There are quotas for EC2 Spot and On-Demand instances?
 date: 2024-12-25T01:30:00+08:00
 cover:
   image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/blog/ec2-vcpu-service-quota/banner.webp
@@ -16,17 +16,17 @@ tags:
 
 # TL;DR
 
-Check your Spot vCPU and On-demand vCPU quotas ASAP.
+Check your Spot vCPU and On-Demand vCPU quotas ASAP.
 
-You could be artifically limiting how many Spot instances you're spinning up, thereby paying more for On-demand instances instead of provisioning Spot.
+You could be artifically limiting how many Spot instances you're spinning up, thereby paying more for On-Demand instances instead of provisioning Spot.
 
-Or, it could be how many On-demand instances you can spin up, which limits the scalablility of your platform.
+Or, it could be how many On-Demand instances you can spin up, which limits the scalablility of your platform.
 
 # Background
 
 I was investigating the root cause for a ticket and I decided to venture into the Service Quota page of AWS thinking I may find some clues in there.
 I spotted the EC2 Service Quota page and it piqued my curiosity — what kind of quotas do they have for it?
-I chanced upon two rather critical quotas: Spot vCPU and On-demand vCPU instance requests.
+I chanced upon two rather critical quotas: Spot vCPU and On-Demand vCPU instance requests.
 
 I never knew there were quotas for these!
 
@@ -34,17 +34,15 @@ I never knew there were quotas for these!
 
 # Unlock Free Savings
 
-For our staging EKS clusters, we prioritise spot instances since we don't mind the interruptions for added savings.
-Whenever we inspect the kinds of nodes Karpenter provisions, we would see a sparse distribution of spot instances among the on-demand instances.
-"Probably because there's no spot capacity available.", or so we thought.
+For our staging EKS clusters, we prioritise Spot instances since we don't mind the interruptions for added savings.
+Whenever we inspect the kinds of nodes Karpenter provisions, we would see a sparse distribution of Spot instances among the On-Demand instances.
+"Probably because there's no Spot capacity available.", or so we thought.
 
 When I stumbled across the quota, the CloudWatch metrics showed we were **always** maxed out. **Always**.
 
 After bumping it up, it began to rapidly max out.
-I requested another bump and it hit the cap again, which means Karpenter **had** to spin up on-demand instances instead.
-Eventually, it began to stabilise after increasing it enough.
-
-We primarily use on-demand instances
+I requested another bump and it hit the cap again, which means Karpenter **had** to spin up On-Demand instances instead.
+Eventually, it began to stabilise after increasing it enough — Karpenter could spin up as many Spot instances as it wanted.
 
 Holy shit. We've been missing out on all these savings for so long. Holy shit.
 
@@ -52,7 +50,7 @@ Holy shit. We've been missing out on all these savings for so long. Holy shit.
 
 As part of our MrBeast campaign, we needed to prescale our EKS cluster to handle the increased load.
 
-Had we not increased our on-demand quota, we would've hit a roadblock — an artificial roadblock that limits our cluster's scalability.
+Had we not increased our On-Demand quota, we would've hit a roadblock — an artificial roadblock that limits our cluster's scalability.
 
 That's absolutely **detrimental** to the business and you never want to be in a situation like that. It could be costly if not addressed promptly.
 
@@ -64,7 +62,7 @@ When I saw our initial quotas, they were at some weird arbitrary integer like 18
 I would imagine AWS uses an algorithm which tracks your usage patterns to preemptively and silently increase your quota.
 
 However, if you're in a situation like us where we need to prescale our infrasturcture in anticipation of a traffic spike, you'll definitely want to make a request beforehand.
-If not, at least for the savings from spot!
+If not, at least for the savings from Spot!
 
 # Monitoring and Alerting EC2 vCPU Quotas
 
