@@ -64,7 +64,7 @@ I would imagine AWS uses an algorithm which tracks your usage patterns to preemp
 However, if you're in a situation like us where we need to prescale our infrastructure in anticipation of a traffic spike, you'll definitely want to make a request beforehand.
 If not, at least for the savings from Spot!
 
-# Monitoring and Alerting EC2 vCPU Quotas
+# Monitoring and Alerting for EC2 vCPU Quotas
 
 Lucky for you and I, we can easily set up monitoring and alerting for these quotas' usage.
 So, I created a simple Terraform module to help us increase the quota and manage the CloudWatch alarms for us.
@@ -72,7 +72,9 @@ So, I created a simple Terraform module to help us increase the quota and manage
 Basically, you pass in the quota value you desire for the service quota code you want and it will increase along with the CloudWatch alarm thresholds.
 
 The underlying [aws_servicequotas_service_quota](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/servicequotas_service_quota) resource sends a request increase, just like how you would do it through the console.
-This means the quota isn't increased immediately, but I believe it's better to update the CloudWatch alarms based on the quota value input instead of the current value of the quota.
+This means the quota isn't increased immediately and only after the request has been approved.
+
+I believe it's better to update the CloudWatch alarms based on the variable input instead of the current value of the quota.
 In our experience, the requests are always approved anyway, so it's fine to increase the alarm thresholds preemptively.
 Making the CloudWatch alarms use the current value means you will have to `terraform apply` the state again after the quota has been approved.
-Terrible DX.
+That's terrible DX.
