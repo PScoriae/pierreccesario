@@ -36,13 +36,16 @@ I never knew there were quotas for these!
 
 For our staging EKS clusters, we prioritise Spot instances since we don't mind the interruptions for added savings.
 Whenever we inspect the kinds of nodes Karpenter provisions, we would see a sparse distribution of Spot instances among the On-Demand instances.
-"Probably because there's no Spot capacity available.", or so we thought.
 
-When I stumbled across the quota, the CloudWatch metrics showed we were **always** maxed out. **Always**.
+"Eh, probably because there's no Spot capacity available.", or so we thought.
+
+When I stumbled across the quota, the CloudWatch metrics showed we were **always** maxing out the quota.
+**Always**.
+Meaning Karpenter **had** to spin up On-Demand instances instead even if Spot instances were available.
 
 After bumping it up, it began to rapidly max out.
-I requested another bump and it hit the cap again, which means Karpenter **had** to spin up On-Demand instances instead.
-Eventually, it began to stabilise after increasing it enough — Karpenter could spin up as many Spot instances as it wanted.
+I requested another bump and it hit the cap again.
+Eventually, it began to stabilise after increasing it enough — Karpenter could finally spin up as many Spot instances as it wanted.
 
 Holy shit. We've been missing out on all these savings for so long. Holy shit.
 
