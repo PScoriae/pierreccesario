@@ -21,9 +21,9 @@ weight: 10
 ---
 
 [aws]: https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white
-[redhat]: https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white
+[gcp]: https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white
+[debian]: https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white
 [terraform]: https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white
-[ansible]: https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white
 [cloudflare]: https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white
 [github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white
 [uptime-kuma]: https://img.shields.io/badge/Uptime_Kuma-84df99?style=for-the-badge&logo=uptime-kuma&logoColor=white
@@ -44,14 +44,14 @@ Read the official full-fat how-to and documentation in the [GitHub repository](h
 
 ## Tech Stack
 
-| Infrastructure                   | Monitoring       | CI/CD               | Frontend      |
-| -------------------------------- | ---------------- | ------------------- | ------------- |
-| ![][aws] <br> ![][redhat]        | ![][uptime-kuma] | ![][github-actions] | ![][hugo]     |
-| ![][terraform] <br> ![][ansible] |                  |                     | ![][markdown] |
-| ![][cloudflare]                  |                  |                     |               |
+| Infrastructure                          | Monitoring       | CI/CD               | Frontend      |
+| --------------------------------------- | ---------------- | ------------------- | ------------- |
+| ![][aws] <br> ![][gcp] <br> ![][debian] | ![][uptime-kuma] | ![][github-actions] | ![][hugo]     |
+| ![][terraform]                          |                  |                     | ![][markdown] |
+| ![][cloudflare]                         |                  |                     |               |
 
 # Achievements
 
 - Developed a customised GitHub Actions Workflow to automatically run Hugo builds and deploy to AWS S3 buckets
 - Set up and configure Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS/SSL encryption for secure connections
-- Composed and formatted precise and informative documentation to aid understanding and deployment process of the project
+- Wrote detailed documentation to aid understanding and deployment process of the project
