@@ -6,7 +6,7 @@ tags:
   - Linux
   - Proxmox
   - Kubernetes
-  - VPN
+  - Networking
 weight: 30
 ---
 
