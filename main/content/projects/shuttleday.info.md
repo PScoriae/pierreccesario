@@ -22,7 +22,7 @@ tags:
   - GitHub
   - DevOps
   - GitOps
-  - Hybrid Cloud
+  - Multi-cloud
 weight: 8
 ---
 
