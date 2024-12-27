@@ -51,11 +51,16 @@ weight: 8
 
 # About
 
-I didn't really like the idea of using a WhatsApp group for organising weekly badminton sessions. Why not make a dedicated web app just for that? So, [Jonathan](https://tjonathan.com) built the frontend, and I the backend.
+I didn't really like the idea of using a WhatsApp group for organising weekly badminton sessions.
+Why not make a dedicated web app just for that?
+So, [Jonathan](https://tjonathan.com) built the frontend, and I the backend.
 
-My friends and I now use this web app to manage every badminton session's details, its attendees and proof of payments. It makes it really easy for admins to keep track of everything all through the web app.
+My friends and I now use this web app to manage every badminton session's details, its attendees and proof of payments.
+It makes it really easy for admins to keep track of everything all through the web app.
 
-You might have noticed that I've deployed it onto a Kubernetes cluster and think that it's overkill. You'd be absolutely right about that. That being said, I'm genuinely interested in everything DevOps, so why not?
+You might have noticed that I've deployed it onto a Kubernetes cluster and think that it's overkill.
+You'd be absolutely right about that.
+That being said, I genuinely like Kubernetes, so why not?
 
 ## Source Code
 
