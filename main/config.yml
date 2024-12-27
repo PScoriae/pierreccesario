@@ -48,6 +48,8 @@ params:
       url: "mailto:contact@pierreccesario.com"
     - name: "AppleMusic"
       url: "https://music.apple.com/profile/pierreccesario"
+    - name: rss
+      url: "/index.xml"
 
 outputs:
   home:
