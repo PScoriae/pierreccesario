@@ -62,3 +62,7 @@ deployment:
   targets:
     name: S3 pierreccesario.com
     URL: "s3://pierreccesario.com?region=ap-southeast-1"
+  matchers:
+    - pattern: "^.+\\.(png|jpg|webp)$"
+      cacheControl: "max-age=86400"
+      gzip: false
