@@ -22,7 +22,6 @@ params:
   env: "production"
   disableThemeToggle: true
   defaultTheme: dark
-  googleAnalyticsID: "G-8XRXNCDV3N"
   ShowCodeCopyButtons: true
   ShowToc: true
   ShowFullTextInRSS: true
@@ -37,6 +36,10 @@ params:
         url: "/projects"
       - name: Blog
         url: "/blog"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-8XRXNCDV3N"
 
   socialIcons:
     - name: "LinkedIn"
