@@ -30,7 +30,7 @@ I chanced upon two rather critical quotas: Spot vCPU and On-Demand vCPU instance
 
 I never knew there were quotas for these!
 
-![][screenshot]
+![screenshot of an ec2 vcpu service quota][screenshot]
 
 ## Unlock Free Savings
 
