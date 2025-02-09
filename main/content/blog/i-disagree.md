@@ -30,5 +30,4 @@ A standout track that highlights on Poppy's metal prowess is _Bite Your Teeth_. 
 _Nothing I Need_ and _Sick of the Sun_ take a more subdued approach by focusing more on Poppy's singing backed by lethargic and enveloping synths and guitars that are reminiscent of The Neighbourhood's style. The album's closing track, _Don't Go Outside_, features ambient vocals and clean fingerstyle acoustics in addition to rock elements. With three distinct parts separated by beautiful guitar solos, there is some resemblance to Queen's _Bohemian Rhapsody_. Towards the end, Poppy's sweet vocals layer melodic reprise versions of _Concrete_, _I Disagree_ and _Fill the Crown_ to create a satisfying thematic ending to the album.
 
 Overall, there are so many facets to the LP's 10 tracks that keeps things fresh and excellently showcases Poppy's versatility. With high quality production and mixing from Chris Greatti and Zakk Cervini, it's a treat to rock out to. I would highly recommend it to any metal, industrial or pop fan.
-
 **9.0/10**
