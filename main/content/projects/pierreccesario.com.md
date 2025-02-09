@@ -43,11 +43,11 @@ Read the official full-fat how-to and documentation in the [GitHub repository](h
 
 ### Tech Stack
 
-| Infrastructure                          | Monitoring       | CI/CD               | Frontend      |
-| --------------------------------------- | ---------------- | ------------------- | ------------- |
-| ![][aws] <br> ![][gcp] <br> ![][debian] | ![][uptime-kuma] | ![][github-actions] | ![][hugo]     |
-| ![][terraform]                          |                  |                     | ![][markdown] |
-| ![][cloudflare]                         |                  |                     |               |
+| Infrastructure                | Monitoring       | CI/CD               | Frontend      |
+| ----------------------------- | ---------------- | ------------------- | ------------- |
+| ![][aws] ![][gcp] ![][debian] | ![][uptime-kuma] | ![][github-actions] | ![][hugo]     |
+| ![][terraform]                |                  |                     | ![][markdown] |
+| ![][cloudflare]               |                  |                     |               |
 
 ## Achievements
 
