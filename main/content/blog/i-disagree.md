@@ -16,7 +16,7 @@ tags:
   - music review
 ---
 
-{{< applemusic "https://embed.music.apple.com/my/album/i-disagree/1647227480" >}}
+{{< applemusic "<https://embed.music.apple.com/my/album/i-disagree/1647227480>" >}}
 
 First off, can I just say how outstanding that album art is? Poppy's menacing gaze, spike-laden choker and superimposed inky face paint in this monochrome aesthetic wonderfully portray the album's mood.
 
