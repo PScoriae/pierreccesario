@@ -19,7 +19,7 @@ tags:
 weight: 20
 ---
 
-# About
+## About
 
 In its current state, this is a Kpop themed Discord bot that with features that appeal to Kpop fans.
 
@@ -28,7 +28,7 @@ Though this change only applies to Verified Bots, I still want to use Slash Comm
 
 Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/imyour_joy).
 
-## Achievements
+### Achievements
 
 - Developed a customised Jenkins CI/CD Pipeline that integrates with GitHub Webhooks to automatically run Docker builds and deployment onto servers
 - Engineered and implemented YouTube and Spotify Web API integrations to periodically send relevant YouTube links from a randomised list of songs in a Spotify playlist

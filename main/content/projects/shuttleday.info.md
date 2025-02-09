@@ -48,7 +48,7 @@ weight: 8
 [material-ui]: https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white
 [tailwind]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 
-# About
+## About
 
 I didn't really like the idea of using a WhatsApp group for organising weekly badminton sessions.
 Why not make a dedicated web app just for that?
@@ -61,11 +61,11 @@ You might have noticed that I've deployed it onto a Kubernetes cluster and think
 You'd be absolutely right about that.
 That being said, I genuinely like Kubernetes, so why not?
 
-## Source Code
+### Source Code
 
 As usual, in FOSS spirit, all source code and full documentation is available on the [GitHub repo](https://github.com/shuttleday/shuttleday) should you want to host it for yourself or verify the code for security vulnerabilities.
 
-## Developer Highlights
+### Developer Highlights
 
 - GitOps Workflow
 - Kubernetes HA Deployment
@@ -74,7 +74,7 @@ As usual, in FOSS spirit, all source code and full documentation is available on
 - Automated setup and configuration with Terraform and Ansible code
 - Hybrid Cloud architecture
 
-## User Features
+### User Features
 
 - Passwordless authentication
 - Badminton session creation and participation
@@ -82,7 +82,7 @@ As usual, in FOSS spirit, all source code and full documentation is available on
 - Payment receipt upload and retrieval
 - Admin tooling
 
-## Tech Stack
+### Tech Stack
 
 | Infrastructure                    | CI/CD               | Backend                      | Frontend                  |
 | --------------------------------- | ------------------- | ---------------------------- | ------------------------- |
@@ -91,13 +91,13 @@ As usual, in FOSS spirit, all source code and full documentation is available on
 | ![][terraform] <br> ![][ansible]  | ![][jest]           | ![][nodejs]                  | ![][tailwind]             |
 | ![][nginx] <br> ![][cloudflare]   |                     | ![][expressjs] <br> ![][jwt] | ![][material-ui]          |
 
-## System Design and Cloud Architecture
+### System Design and Cloud Architecture
 
 Here's an overview of the implemented system design and hybrid cloud architecture for the project:
 
 ![cloud-architecture](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/shuttleday.info/cloud-arch.webp)
 
-# Achievements
+## Achievements
 
 - Architected GitOps hybrid-cloud deployments; automated staging and prod environments; system health notifiers
 - Engineered secure GitHub Actions CI + GitOps ArgoCD pipelines; code quality, tests and automated deployments

@@ -10,13 +10,13 @@ tags:
 weight: 30
 ---
 
-# About
+## About
 
 Servy is my home server that hosts all my self-hosted home services. It used to run Red Hat Enterprise Linux as its hypervisor, but now runs Proxmox VE.
 
 Additionally, it's used as a test server for my projects before I deploy them to the cloud. For example, it also hosts a three-node Kubernetes cluster for staging any projects.
 
-## Specifications
+### Specifications
 
 I needed the server to be economical as possible but with as much computing power as possible to support all the testing and sandboxing I had planned for it.
 I decided to go with decommissioned server parts as they offered the best performance per dollar.
@@ -30,7 +30,7 @@ I decided to go with decommissioned server parts as they offered the best perfor
 | SSD         | Silicon Power P34A60 256GB |
 | PSU         | Cooler Master MWE500       |
 
-# Services
+## Services
 
 | Service            | Description                                                                                               |
 | ------------------ | --------------------------------------------------------------------------------------------------------- |

@@ -43,7 +43,7 @@ weight: 9
 [tailwind]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 [daisy-ui]: https://img.shields.io/badge/Daisy%20UI-522bbe?style=for-the-badge&logo=daisyui&logoColor=white
 
-# About
+## About
 
 This project, largely based on [PCPartPicker](https://pcpartpicker.com), is a rather simple webapp that lets users save and share parts lists for custom PCs.
 
@@ -51,11 +51,11 @@ An important thing to note about this project is that the webapp is **not** the 
 
 With that being said, I did put in effort into creating the webapp as best I find programming in general quite gratifying. While frontend web development isn't my preference at all, it was a rather pleasant experience working with SvelteKit and was one of the primary reasons why it was chosen over other popular frameworks like React or Vue.
 
-## Source Code
+### Source Code
 
 Read the official full-fat documentation in the [GitHub repository](https://github.com/PScoriae/PCPartsTool).
 
-## Tech Stack
+### Tech Stack
 
 | Infrastructure                   | DevOps                            | Backend         | Frontend      |
 | -------------------------------- | --------------------------------- | --------------- | ------------- |
@@ -73,13 +73,13 @@ Read the official full-fat documentation in the [GitHub repository](https://gith
 | [terraform-infra](https://github.com/PScoriae/terraform-infra)         | Terraform IaC for PCPartsTool Cloud Infrastructure                  |
 | [ansible-ec2](https://github.com/PScoriae/ansible-ec2)                 | Ansible CaC for AWS EC2 Bootstraping, Observability and Maintenance |
 
-## System Design and Cloud Architecture
+### System Design and Cloud Architecture
 
 Here's an overview of the implemented system design and cloud architecture for the project:
 
 ![cloud-architecture](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/cloud-arch.webp)
 
-# Findings
+## Findings
 
 Seeing as this project also served as my degree's final year project, I had to make an accompanying report for my findings. I do not plan to publish said report, but in case you are someone who has seen my resume, you might be wondering how I got the claimed numbers for the reduced deployment times due to the use of Ansible, Terraform or Jenkins. Hence, here's the data for that:
 
@@ -88,7 +88,7 @@ Seeing as this project also served as my degree's final year project, I had to m
 ![jenkins](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/jenkins.webp)
 ![playwright](https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pcpartstool/playwright.webp)
 
-# Achievements
+## Achievements
 
 - Architected and designed full stack cloud web app
 - Leveraged IaC and CaC to programmatically set up and tear down one-click cloud infrastructure deployments with full observability and monitoring across multiple platforms

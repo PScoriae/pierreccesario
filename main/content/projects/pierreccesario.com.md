@@ -31,7 +31,7 @@ weight: 10
 [hugo]: https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white
 [markdown]: https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white
 
-# About
+## About
 
 Essentially, this site is my .com, so it'll have everything that pertains to me and my career that I think you'll find important or interesting whether you're a recruiter or someone getting to know me better.
 Since this website can also act as a platform for me to express my opinions about things, I may also post some reviews or opinion articles here too.
@@ -42,7 +42,7 @@ The site then sits behind [Cloudflare's](https://www.cloudflare.com/) robust CDN
 
 Read the official full-fat how-to and documentation in the [GitHub repository](https://github.com/PScoriae/pierreccesario).
 
-## Tech Stack
+### Tech Stack
 
 | Infrastructure                          | Monitoring       | CI/CD               | Frontend      |
 | --------------------------------------- | ---------------- | ------------------- | ------------- |
@@ -50,7 +50,7 @@ Read the official full-fat how-to and documentation in the [GitHub repository](h
 | ![][terraform]                          |                  |                     | ![][markdown] |
 | ![][cloudflare]                         |                  |                     |               |
 
-# Achievements
+## Achievements
 
 - Developed a customised GitHub Actions Workflow to automatically run Hugo builds and deploy to AWS S3 buckets
 - Set up and configure Cloudflare DNS and CDN rerouting to AWS S3 buckets complete with TLS/SSL encryption for secure connections
