@@ -57,12 +57,12 @@ Read the official full-fat documentation in the [GitHub repository](https://gith
 
 ### Tech Stack
 
-| Infrastructure                   | DevOps                            | Backend         | Frontend      |
-| -------------------------------- | --------------------------------- | --------------- | ------------- |
-| ![][aws] <br> ![][red-hat]       | ![][jenkins]                      | ![][mongodb]    | ![][svelte]   |
-| ![][terraform] <br> ![][ansible] | ![][playwright]                   | ![][sveltekit]  | ![][tailwind] |
-| ![][nginx]                       | ![][docker]                       | ![][typescript] | ![][daisy-ui] |
-| ![][cloudflare]                  | ![][prometheus] <br> ![][grafana] |                 |               |
+| Infrastructure              | DevOps                       | Backend         | Frontend      |
+| --------------------------- | ---------------------------- | --------------- | ------------- |
+| ![][aws] ![][red-hat]       | ![][jenkins]                 | ![][mongodb]    | ![][svelte]   |
+| ![][terraform] ![][ansible] | ![][playwright]              | ![][sveltekit]  | ![][tailwind] |
+| ![][nginx]                  | ![][docker]                  | ![][typescript] | ![][daisy-ui] |
+| ![][cloudflare]             | ![][prometheus] ![][grafana] |                 |               |
 
 **Note:** The PCPartsTool project consists of multiple repositories. Here are all the related repositories:
 

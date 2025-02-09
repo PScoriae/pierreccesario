@@ -84,12 +84,12 @@ As usual, in FOSS spirit, all source code and full documentation is available on
 
 ### Tech Stack
 
-| Infrastructure                    | CI/CD               | Backend                      | Frontend                  |
-| --------------------------------- | ------------------- | ---------------------------- | ------------------------- |
-| ![][aws] <br> ![][digitalocean]   | ![][github-actions] | ![][mongodb]                 | ![][react] <br> ![][vite] |
-| ![][red-hat] <br> ![][kubernetes] | ![][argocd]         | ![][typescript]              | ![][javascript]           |
-| ![][terraform] <br> ![][ansible]  | ![][jest]           | ![][nodejs]                  | ![][tailwind]             |
-| ![][nginx] <br> ![][cloudflare]   |                     | ![][expressjs] <br> ![][jwt] | ![][material-ui]          |
+| Infrastructure               | CI/CD               | Backend                 | Frontend             |
+| ---------------------------- | ------------------- | ----------------------- | -------------------- |
+| ![][aws] ![][digitalocean]   | ![][github-actions] | ![][mongodb]            | ![][react] ![][vite] |
+| ![][red-hat] ![][kubernetes] | ![][argocd]         | ![][typescript]         | ![][javascript]      |
+| ![][terraform] ![][ansible]  | ![][jest]           | ![][nodejs]             | ![][tailwind]        |
+| ![][nginx] ![][cloudflare]   |                     | ![][expressjs] ![][jwt] | ![][material-ui]     |
 
 ### System Design and Cloud Architecture
 
