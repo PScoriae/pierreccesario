@@ -12,7 +12,7 @@ tags:
   - howto
 ---
 
-# TL;DR
+## TL;DR
 
 ```sh
 brew install colima docker-cli
@@ -22,14 +22,14 @@ docker ps
 
 No need to `brew install --cask docker` anymore!
 
-# Wait, what's the problem with Docker Desktop?
+## Wait, what's the problem with Docker Desktop?
 
 A few years back, Docker Desktop for MacOS and Windows became no longer **free** for _large businesses_.
 This is because of some [license changes](https://www.docker.com/blog/updating-product-subscriptions/).
 
 Sure, for smaller businesses and personal use, you can still use it.
 
-# Cool, I'll just use Rancher Desktop at work then.
+## Cool, I'll just use Rancher Desktop at work then.
 
 That's a totally valid alternative.
 
@@ -46,7 +46,7 @@ I honestly can't be bothered with all the features and bloat that come with a GU
 
 **The best solution is one where I can just use the Docker CLI just like on Linux.**
 
-# Okay, what do you suggest then?
+## Okay, so what do you suggest?
 
 That's where [colima](https://github.com/abiosoft/colima) comes in.
 

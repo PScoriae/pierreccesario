@@ -14,7 +14,7 @@ tags:
 
 [screenshot]: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/blog/ec2-vcpu-service-quota/screenshot.webp
 
-# TL;DR
+## TL;DR
 
 Check your Spot vCPU and On-Demand vCPU quotas ASAP.
 
@@ -22,7 +22,7 @@ You could be artifically limiting how many Spot instances you're spinning up, th
 
 Or, it could be how many On-Demand instances you can spin up, which limits the scalability of your platform.
 
-# Background
+## Background
 
 I was investigating the root cause for a ticket and I decided to venture into the Service Quota page of AWS thinking I may find some clues in there.
 I spotted the EC2 Service Quota page and it piqued my curiosity — what kind of quotas do they have for it?
@@ -32,7 +32,7 @@ I never knew there were quotas for these!
 
 ![][screenshot]
 
-# Unlock Free Savings
+## Unlock Free Savings
 
 For our staging EKS clusters, we prioritise Spot instances since we don't mind the interruptions for added savings.
 Whenever we inspect the kinds of nodes Karpenter provisions, we would see a sparse distribution of Spot instances among the On-Demand instances.
@@ -49,7 +49,7 @@ Eventually, it began to stabilise after increasing it enough — Karpenter could
 
 Holy shit. We've been missing out on all these savings for so long. Holy shit.
 
-# Scale Without Limits
+## Scale Without Limits
 
 As part of our MrBeast campaign, we needed to prescale our EKS cluster to handle the increased load.
 
@@ -57,7 +57,7 @@ Had we not increased our On-Demand quota, we would've hit a roadblock — an art
 
 That's absolutely **detrimental** to the business and you never want to be in a situation like that. It could be costly if not addressed promptly.
 
-# "Wait, I've never had to increase this before."
+## "Wait, I've never had to increase this before."
 
 Yep.
 When I saw our initial quotas, they were at some weird arbitrary integer like 1838.
@@ -67,7 +67,7 @@ I would imagine AWS uses an algorithm which tracks your usage patterns to preemp
 However, if you're in a situation like us where we need to prescale our infrastructure in anticipation of a traffic spike, you'll definitely want to make a request beforehand.
 If not, at least for the savings from Spot!
 
-# Monitoring and Alerting for EC2 vCPU Quotas
+## Monitoring and Alerting for EC2 vCPU Quotas
 
 Lucky for you and I, we can easily set up monitoring and alerting for these quotas' usage.
 So, I created a simple Terraform module to help us increase the quota and manage the CloudWatch alarms for us.

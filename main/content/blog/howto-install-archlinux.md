@@ -11,9 +11,9 @@ tags:
   - archlinux
 ---
 
-# Preface
+## Preface
 
-## Aim
+### Aim
 
 This guide is mainly for myself to refer to in case I need to:
 
@@ -30,13 +30,13 @@ For example, in many cases I will just be listing the commands you need to run i
 
 **This guide will not hold your hand.**
 
-## Rationale
+### Rationale
 
 Arch Linux was chosen due to its adherence to the ‘Keep It Simple, Stupid’ (KISS) principle. I find that this resonates with me since I only want the things I need and nothing else. I get to choose what packages I wish to install with little to nothing imposed on me. Similarly, I also like the DIY aspect of the distribution. This allows the install to keep a minimal footprint not only in install size but also in terms of system resources. As such, Arch Linux proved to be a good choice.
 
 It can be argued that Void Linux or Artix Linux would serve the same purpose. Their main appeal would be the lack of _systemd_ but I frankly do not care about that aspect. In my experience, _systemd_ works fine.
 
-## Content
+### Content
 
 I will be detailing how to exactly replicate my current configuration using the terminal and GUI tools. As such, some Linux knowledge will be required on your end if you wish to adjust it to your needs. Moreover, I may also explain the rationale behind certain choices I have made, which in turn may better inform you about whether to choose a different path than I have. They will be hidden by default since not everyone needs to know about it, but it is still there should you need it.
 
@@ -44,19 +44,19 @@ Many thanks to Ermanno and his video on [How to install Arch Linux with the syst
 It will form the basis of this installation guide and has been adapted to fit my needs.
 For additional information, consult the fantastic [Arch Wiki install guide.](https://wiki.archlinux.org/title/installation_guide)
 
-# Preinstallation
+## Preinstallation
 
-## Downloads
+### Downloads
 
 Download the latest ISO for Arch Linux from here then right-click on it in Nautilus and use the Disk Image Writer to burn it onto the USB stick.
 
 If this is not done from Linux, you need to download a program to burn the ISO to your USB drive. I personally use Rufus but I hear great things about Balena Etcher, which is also available on Linux.
 
-# Arch Installation
+## Arch Installation
 
 Of course, if you already have a base Arch install or you have your own way to install Arch, then you can skip to Post Installation.
 
-## Format blocks
+### Format blocks
 
 Plug in your USB drive into the PC, boot up the PC and go into the BIOS. Override the boot order and boot from the USB.
 
@@ -133,7 +133,7 @@ mount /dev/sda1 /mnt/boot
 lsblk
 ```
 
-## Base Arch Install
+### Base Arch Install
 
 Install essential packages.
 
@@ -179,7 +179,7 @@ vim /etc/fstab
 /swapfile none swap defaults 0 0
 ```
 
-## Localisation
+### Localisation
 
 Set a timezone with symlink.
 
@@ -211,7 +211,7 @@ vim /etc/locale.conf
 LANG=en_GB.UTF-8
 ```
 
-## Host settings
+### Host settings
 
 Set hostname.
 
@@ -241,7 +241,7 @@ Install more packages for systemd-boot and other needs.
 pacman -S efibootmgr base-devel networkmanager os-prober mtools dosfstools git intel-ucode
 ```
 
-## systemd-boot
+### systemd-boot
 
 Install systemd-boot
 
@@ -271,13 +271,13 @@ initrd /initramfs-linux.img
 options root=/dev/sda2 rw
 ```
 
-## Enable NetworkManager
+### Enable NetworkManager
 
 ```bash
 systemctl enable NetworkManager
 ```
 
-## Set Up New User
+### Set Up New User
 
 Add a new user to the wheel group and set a password.
 
@@ -300,7 +300,7 @@ umount -a
 reboot
 ```
 
-# End
+## End
 
 That's it. You've installed Arch Linux.
 
