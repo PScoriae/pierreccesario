@@ -4,6 +4,21 @@ title: Pierre Corazo Cesario
 themesDir: "../themes"
 theme: "PaperMod"
 
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+        enable: true
+
 menu:
   main:
     - name: Search
@@ -19,6 +34,7 @@ menu:
       weight: 120
 
 params:
+  math: false
   env: "production"
   disableThemeToggle: true
   defaultTheme: dark
