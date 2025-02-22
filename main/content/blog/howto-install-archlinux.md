@@ -8,7 +8,7 @@ cover:
   alt: archlinux logo
 tags:
   - howto
-  - archlinux
+  - Linux
 ---
 
 ## Preface
