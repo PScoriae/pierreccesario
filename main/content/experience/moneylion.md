@@ -45,6 +45,12 @@ I’m excited and proud to have been part of a project where we reduced Aurora d
 
 Read more on the official AWS Database Blog [here!](https://aws.amazon.com/blogs/database/how-moneylion-achieved-price-predictability-and-55-cost-savings-using-amazon-aurora-i-o-optimized-and-optimized-ri-purchases/)
 
+### Blogs
+
+I've written some blog posts about the work I've done here as well.
+
+[Read more here!](/tags/moneylion/)
+
 ### Time in Role
 
 Oct 2023 - Present
