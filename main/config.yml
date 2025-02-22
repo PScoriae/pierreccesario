@@ -52,6 +52,8 @@ params:
         url: "/projects"
       - name: Blog
         url: "/blog"
+      - name: Work With Me
+        url: "/work-with-me"
 
   analytics:
     google:
