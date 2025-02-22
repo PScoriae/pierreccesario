@@ -30,7 +30,7 @@ I’m a Site Reliability Engineer (SRE) focused on cloud infrastructure, automat
 
 I’m open to:
 
-- Full-time roles (remote or on-site)
+- Full-time roles (remote or hybrid)
 - Contract & freelance work (infrastructure consulting, cost optimization, automation)
 - Advisory & collaboration opportunities
 
