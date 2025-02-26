@@ -1,7 +1,7 @@
 ---
 title: "pierreccesario.com"
-description: The very portfolio website that you're currently on!
-summary: The very portfolio website that you're currently on!
+description: My website. My thoughts. My craft.
+summary: My website. My thoughts. My craft.
 cover:
   image: https://s3.ap-southeast-1.amazonaws.com/pierreccesario.com-images/projects/pierreccesario.com/banner.webp
   alt: pierreccesario cover
