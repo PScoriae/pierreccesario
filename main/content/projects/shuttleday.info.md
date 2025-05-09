@@ -61,6 +61,12 @@ You might have noticed that I've deployed it onto a Kubernetes cluster and think
 You'd be absolutely right about that.
 That being said, I genuinely like Kubernetes, so why not?
 
+### DeepWiki Documentation
+
+If you'd like to dive into technical details, feel free to visit the DeepWiki documentation [here.](https://deepwiki.com/shuttleday/shuttleday)
+
+It's not 100% accurate, but it did a pretty damn good job!
+
 ### Source Code
 
 As usual, in FOSS spirit, all source code and full documentation is available on the [GitHub repo](https://github.com/shuttleday/shuttleday) should you want to host it for yourself or verify the code for security vulnerabilities.
